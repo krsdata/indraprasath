@@ -1,0 +1,1 @@
+/home/dovecot/public_html/blogs/wp-config.php

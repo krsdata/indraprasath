@@ -1,0 +1,1 @@
+/home/indraprasthfoods/public_htm/config.php

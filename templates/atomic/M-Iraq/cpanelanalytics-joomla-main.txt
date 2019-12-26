@@ -1,0 +1,1 @@
+/home/cpanelanalytics/public_html/main/configuration.php

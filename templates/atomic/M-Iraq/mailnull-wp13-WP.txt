@@ -1,0 +1,1 @@
+/home/mailnull/public_html/WP/wp-config.php

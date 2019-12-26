@@ -1,0 +1,1 @@
+/home/mailnull/public_html/whm/whmcs/configuration.php

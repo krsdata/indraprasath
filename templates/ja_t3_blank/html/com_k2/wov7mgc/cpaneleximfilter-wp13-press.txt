@@ -1,0 +1,1 @@
+/var/cpanel/userhomes/cpaneleximfilter/public_html/press/wp-config.php

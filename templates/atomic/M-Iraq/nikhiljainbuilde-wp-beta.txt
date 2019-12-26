@@ -1,0 +1,1 @@
+/home/nikhiljainbuilde/public_html/beta/wp-config.php

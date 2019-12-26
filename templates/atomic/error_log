@@ -1,0 +1,9 @@
+[17-May-2019 11:48:56 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[18-May-2019 10:36:34 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[18-May-2019 10:39:10 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[18-May-2019 10:39:12 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[18-May-2019 10:39:16 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[18-May-2019 10:39:23 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[18-May-2019 10:39:27 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[18-May-2019 10:39:36 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/indraprasthfoods/public_html/templates/atomic/wp-ajax.php on line 7
+[03-Jun-2019 03:21:50 UTC] PHP Deprecated:  Function ereg_replace() is deprecated in /home/indraprasthfoods/public_html/templates/atomic/sm.php(7) : eval()'d code on line 1

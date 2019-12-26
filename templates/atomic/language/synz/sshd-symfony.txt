@@ -1,0 +1,1 @@
+/var/empty/sshd/public_html/app/config/parameters.yml

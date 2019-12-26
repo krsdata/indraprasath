@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="attribs" addfieldpath="/plugins/system/jacontentextrafields/elements">
+		<fieldset name="layout" label="JACONTENTEXTRAFIELDS_SETTINGS">
+			<field 
+				name="layout" 
+				type="jalayouts" 
+				default="" 
+				exclude="xml"
+				stripext="1"
+				hide_none="1"
+				hide_default="0"
+				label="JA_ALTERNATIVE_LAYOUT" 
+				description="JA_ALTERNATIVE_LAYOUT_DESC" >
+			</field>
+			
+			<field 
+				name="display" 
+				type="list" 
+				default="default" 
+				label="IS_DISPLAY" 
+				description="IS_DISPLAY_DESC">
+					<option value="default">JOPTION_USE_DEFAULT</option>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			
+			<field 
+				name="display_on_list"
+				type="list" 
+				default="default"
+				label="DISPLAY_ON_LIST_PAGES"
+				description="DISPLAY_ON_LIST_PAGES_DESC" >
+					<option value="default">JOPTION_USE_DEFAULT</option>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			
+			<field 
+				name="display_on_home" 
+				type="list" 
+				default="default" 
+				label="DISPLAY_ON_FEATURED" 
+				description="DISPLAY_ON_FEATURED_DESC" >
+					<option value="default">JOPTION_USE_DEFAULT</option>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+		</fieldset>		
+	</fields>
+</form>

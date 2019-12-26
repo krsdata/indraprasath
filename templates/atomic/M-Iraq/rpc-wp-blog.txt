@@ -1,0 +1,1 @@
+/home/rpc/public_html/blog/wp-config.php

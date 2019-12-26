@@ -1,0 +1,1 @@
+/root/public_html/application/config/config.php

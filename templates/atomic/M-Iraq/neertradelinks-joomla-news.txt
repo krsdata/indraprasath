@@ -1,0 +1,1 @@
+/home/neertradelinks/public_html/news/configuration.php

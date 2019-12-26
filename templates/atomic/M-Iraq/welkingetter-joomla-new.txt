@@ -1,0 +1,1 @@
+/home/welkingetter/public_html/new/configuration.php

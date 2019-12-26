@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="attribs">
+		<fieldset name="mega-params-1" label="Extra Fields Group 1">
+			<field name="video" type="textarea" rows="5" cols="30" default="" label="video" description="video" filter="raw" />
+		</fieldset>			
+		<fieldset name="mega-params-2" label="Extra Fields Group 2">
+			<field name="name" type="text" rows="5" cols="30" default="" label="name" description="name" />
+			<field name="price" type="text" rows="5" cols="30" default="" label="price" description="price" />
+			<field name="review" type="text" rows="5" cols="30" default="" label="review" description="review" filter="raw" />
+		</fieldset>			
+		<fieldset name="mega-params-3" label="Extra Fields Group 3">
+			<field name="test5" type="radio" default="1" label="test5" description="test5">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="test6" type="text" rows="5" cols="30" default="" label="test6" description="test6" />
+		</fieldset>			
+		<fieldset name="mega-params-4" label="Extra Fields Group 4">
+			<field name="test7" type="radio" default="1" label="test7" description="test7">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="test8" type="text" rows="5" cols="30" default="" label="test8" description="test8" />
+		</fieldset>			
+	</fields>
+</form>

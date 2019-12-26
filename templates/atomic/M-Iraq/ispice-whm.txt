@@ -1,0 +1,1 @@
+/home/ispice/public_html/whm/configuration.php

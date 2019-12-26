@@ -1,0 +1,1 @@
+/home/krsdata/public_html/WP/wp-config.php

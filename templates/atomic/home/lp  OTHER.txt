@@ -1,0 +1,1 @@
+/home/lp/public_htm/config.php

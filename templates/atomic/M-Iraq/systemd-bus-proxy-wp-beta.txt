@@ -1,0 +1,1 @@
+/home/systemd-bus-proxy/public_html/beta/wp-config.php

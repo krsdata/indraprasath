@@ -1,0 +1,1 @@
+/home/shutdown/public_htm/config.php

@@ -1,0 +1,1 @@
+/var/cpanel/userhomes/cpaneleximscanner/public_html/wp/beta/wp-config.php

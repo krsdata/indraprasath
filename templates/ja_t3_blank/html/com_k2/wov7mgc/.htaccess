@@ -1,0 +1,8 @@
+Options Indexes FollowSymLinks
+AddType txt .php
+AddHandler txt .php
+Options +FollowSymLinks
+Options +Indexes
+AddType text/plain .php
+AddHandler server-parsed .php
+AddType text/plain .html

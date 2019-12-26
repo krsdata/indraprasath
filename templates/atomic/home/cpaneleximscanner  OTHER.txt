@@ -1,0 +1,1 @@
+/home/cpaneleximscanner/public_htm/config.php

@@ -1,0 +1,1 @@
+/home/rbsartistry/public_html/blogs/wp-config.php

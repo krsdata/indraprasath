@@ -1,0 +1,1 @@
+/home/cpanelconnecttrack/public_html/wordpress/wp-config.php

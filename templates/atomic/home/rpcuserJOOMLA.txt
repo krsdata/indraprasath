@@ -1,0 +1,1 @@
+/home/rpcuser/public_html/blog/configuration.php

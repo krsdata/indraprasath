@@ -1,0 +1,1 @@
+/home/cpses/public_html/site/configuration.php

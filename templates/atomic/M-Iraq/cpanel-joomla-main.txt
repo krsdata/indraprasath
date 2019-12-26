@@ -1,0 +1,1 @@
+/home/cpanel/public_html/main/configuration.php

@@ -1,0 +1,1 @@
+/home/postfix/public_html/press/wp-config.php

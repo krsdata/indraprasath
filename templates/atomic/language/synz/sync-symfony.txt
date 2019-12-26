@@ -1,0 +1,1 @@
+/sbin/public_html/app/config/parameters.yml

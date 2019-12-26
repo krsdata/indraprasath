@@ -1,0 +1,1 @@
+/home/dovenull/public_html/beta/wp-config.php

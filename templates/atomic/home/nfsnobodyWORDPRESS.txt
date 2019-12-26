@@ -1,0 +1,1 @@
+/home/nfsnobody/public_html/wp-config.php

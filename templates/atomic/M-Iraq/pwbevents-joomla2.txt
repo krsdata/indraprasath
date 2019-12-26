@@ -1,0 +1,1 @@
+/home/pwbevents/public_html/joomla/configuration.php

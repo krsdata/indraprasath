@@ -1,0 +1,1 @@
+/home/daemon/public_html/new/configuration.php

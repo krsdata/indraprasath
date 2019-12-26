@@ -1,0 +1,1 @@
+/home/mysql/public_html/blog/wp-config.php

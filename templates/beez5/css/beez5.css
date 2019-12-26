@@ -1,0 +1,1057 @@
+
+
+@font-face {
+    font-family: "Titillium Maps";
+  src: local("Titillium Maps"), local("TitilliumMaps"), url("../fonts/TitilliumMaps29L002.otf") format("opentype"), url("../fonts/TitilliumMaps29L002.woff") format("woff");
+}
+
+body {
+    background: url("../images/header_outer.jpg") repeat-x scroll 0% 0% #EEEEEE;
+    color: #333333;
+    font-family: arial,helvetica,sans-serif;
+}
+
+#all {
+    color: #333333;
+    border: 0px solid #DDDDDD ! important;
+}
+
+.div1, .subt_div {
+    color: #000000;
+}
+
+a:link, a:visited {
+    color: #7BA428;
+}
+
+a:hover, a:active, a:focus {
+    background: none repeat scroll 0% 0% #669933;
+    color: #FFFFFF;
+}
+
+input:focus {
+    border: 2px solid;
+}
+
+fieldset {
+    border: 0px solid #CCCCCC;
+}
+
+.article-info {
+    color: #444444;
+}
+
+.article-info dd span {
+    color: #444444;
+    border-right: 0px solid;
+}
+
+#header {
+    background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+#logo span {
+    color: #555555 ! important;
+    margin-top: 6px;
+    font-size: 0.4em ! important;
+    letter-spacing: 1px;
+}
+
+.logoheader {
+    border-top: 5px solid #555555;
+    color: #555555;
+    background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+#header-image {
+    min-height: 20px;
+    background: none repeat scroll 0% 0% #EEEEEE;
+}
+
+h1#logo {
+    margin: 1.2em 20px 10px;
+    font-size: 3em;
+}
+
+#line {
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+
+#header #line form, #header #line #fontsize, #header #line form .search #header #line form .finder {
+    display: inline ! important;
+}
+
+#header ul {
+    max-width: 1030px;
+    right: 15px;
+}
+
+#header ul.menu {
+    margin-top: 5px ! important;
+    list-style-type: none;
+}
+
+#header ul.menu li {
+    border: 0px none;
+}
+
+#header ul.menu li a:link, #header ul.menu li a:visited {
+    color: #333333;
+    border-width: 0px 1px 0px 0px;
+    border-style: none solid none none;
+    border-color: -moz-use-text-color #EEEEEE -moz-use-text-color -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background: none repeat scroll 0% 0% transparent;
+    padding: 10px 15px;
+}
+
+#header ul.menu li a:hover, #header ul.menu li a:active, #header ul.menu li a:focus {
+    color: #444444;
+    background: none repeat scroll 0% 0% #DDDDDD;
+}
+
+#header ul.menu li.active a:link, #header ul.menu li.active a:visited {
+    color: #FFFFFF;
+    border-right: 1px solid #237D85;
+    background: none repeat scroll 0% 0% #7BA428 ! important;
+}
+
+#header ul.skiplinks {
+    width: 100%;
+}
+
+.skiplinks, .skiplinks li {
+    border: 0px solid #000000;
+}
+
+#header ul.skiplinks {
+    width: 100%;
+    text-align: left;
+    background: none repeat scroll 0% 0% transparent;
+    z-index: 20000;
+    top: 0px;
+    display: inline;
+    padding: 0px;
+}
+
+#header ul.skiplinks li a.u2:active, #header ul.skiplinks li a.u2:focus {
+    background: none repeat scroll 0% 0% #333333 ! important;
+    color: #FFFFFF ! important;
+    border: 1px solid;
+    top: 0px ! important;
+    z-index: 2147483647 ! important;
+    left: 10px ! important;
+    width: 14em;
+    display: block;
+}
+
+#fontsize {
+    color: #444444;
+}
+
+#fontsize p a:link, #fontsize p a:visited {
+    color: #444444;
+}
+
+#fontsize p a:hover, #fontsize p a:active, #fontsize p a:focus {
+    background: none repeat scroll 0% 0% #555555;
+    color: #FFFFFF;
+}
+
+#fontsize h3 {
+    color: #444444;
+}
+
+#header form .inputbox {
+    background: none repeat scroll 0% 0% #FFFFFF ! important;
+}
+
+#header form .inputbox:focus {
+    border: 2px solid #000000;
+}
+
+#header form .button {
+    border: 1px solid #999999;
+    background: url("../images/searchbutton.png") repeat scroll 0% 0% #664335;
+    color: #FFFFFF;
+}
+
+#top {
+    background: none repeat scroll 0% 0% #EEEEEE;
+    padding: 15px;
+    border: 1px solid #DDDDDD;
+}
+
+#contentarea, #contentarea2 {
+    background: url("../images/box1.png") repeat-x scroll 0% 0% #FFFFFF;
+}
+
+#breadcrumbs {
+    color: #555555;
+}
+
+#breadcrumbs span {
+    color: #555555;
+}
+
+#breadcrumbs span a:link, #breadcrumbs span a:visited {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #7BA428;
+}
+
+#breadcrumbs span a:hover, #breadcrumbs span a:active, #breadcrumbs span a:focus {
+    background: none repeat scroll 0% 0% #7BA428;
+    color: #FFFFFF;
+}
+
+.module_content {
+    border: 1px solid #DDDDDD;
+    background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+.moduletable_js {
+    border: 0px solid #DDDDDD;
+}
+
+#right .moduletable_js {
+    border: 0px none;
+}
+
+#nav h3 {
+    border-bottom: 1px solid #DDDDDD;
+    color: #444444;
+}
+
+h3.js_heading {
+    border-bottom: 1px solid #FFFFFF ! important;
+    background: none repeat scroll 0% 0% #EEEEEE;
+    font-family: 'Titillium Maps',Arial;
+}
+
+h3.js_heading span.backh {
+    border: 0px solid #000000;
+}
+
+h3.js_heading span.backh1 {
+    color: #444444;
+}
+
+#right h3 {
+    color: #377A2E;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+#right h3 span.backh {
+}
+
+#right h3 span.backh2 {
+}
+
+#right h3 span.backh3 {
+    color: #664335;
+}
+
+h3.js_heading a {
+    border: 0px none;
+}
+
+h3.js_heading a img {
+    border: 0px none;
+}
+
+h3.js_heading a.opencloselink:hover, h3.js_heading a.opencloselink:active, h3.js_heading a.opencloselink:focus {
+    background: none repeat scroll 0% 0% transparent;
+}
+
+h3.js_heading a:link, h3.js_heading a:visited, h3.js_heading a:hover, h3.js_heading a:active, h3.js_heading a:focus {
+}
+
+#nav h3 {
+    font-family: 'Titillium Maps',Arial;
+}
+
+#nav h3.js_heading a:focus {
+}
+
+#nav form {
+    color: #000000;
+}
+
+#nav form a:hover, #nav form a:active, #nav form a:focus {
+    color: #FFFFFF;
+    background: none repeat scroll 0% 0% #669933;
+}
+
+#nav .moduletable-example ul.menu {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    border: 0px none;
+}
+
+ul.menu {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    border: 0px solid #EEEEEE;
+}
+
+.module_content ul.menu {
+    border: 0px none;
+}
+
+ul.menu li {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+ul.menu li a:link, ul.menu li a:visited {
+    color: #444444;
+    background: url("../images/karo.gif") no-repeat scroll 5px 12px transparent;
+}
+
+ul.menu li.active a:link, ul.menu li.active a:visited {
+    color: #333333;
+}
+
+ul.menu li a:hover, ul.menu li a:active, ul.menu li a:focus, ul.menu li.active a:hover, ul.menu li.active a:active, ul.menu li.active a:focus {
+    background: url("../images/nav_level_1.gif") repeat-x scroll 0% 0% #FFFFFF;
+    color: #638420;
+}
+
+ul.menu li ul {
+    border: 0px solid #EEEEEE;
+}
+
+ul.menu li ul li {
+    border: 0px solid #000000;
+    background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+ul.menu li.active ul li a:link, ul.menu li.active ul li a:visited {
+    color: #444444;
+    border-width: 0px 0px 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color #FFFFFF;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background: none repeat scroll 0% 0% #E8E8E8;
+}
+
+ul.menu li.active ul li.active a:link, ul.menu li.active ul li.active a:visited {
+    border-width: 0px 0px 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color #FFFFFF;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #333333;
+}
+
+ul.menu li.active ul li a:hover, ul.menu li.active ul li a:active, ul.menu li.active ul li a:focus {
+    background: none repeat scroll 0% 0% #666666 ! important;
+    color: #FFFFFF ! important;
+}
+
+ul.menu li ul li ul {
+    border: 0px none ! important;
+    background: none repeat scroll 0% 0% #F5F5F5 ! important;
+    padding-bottom: 0px;
+}
+
+ul.menu li.active ul li.active ul li a:link, ul.menu li.active ul li.active ul li a:visited {
+    background: none repeat scroll 0% 0% #F5F5F5;
+    border-bottom: 1px solid #FFFFFF;
+    color: #444444;
+}
+
+ul.menu li.active ul li.active ul li.active a:link, ul.menu li.active ul li.active ul li.active a:visited {
+    color: #333333;
+}
+
+ul.menu li ul li ul li ul {
+    border: 1px solid #EEEEEE ! important;
+    padding-top: 10px ! important;
+    padding-bottom: 10px ! important;
+    background: url("../images/level4.png") repeat-x scroll 0% 0% #FFFFFF ! important;
+}
+
+ul.menu li.active ul li.active ul li.active ul li a:link, ul.menu li.active ul li.active ul li.active ul li a:visited {
+    font-weight: normal;
+    padding: 3px 2px 3px 40px;
+    font-size: 0.9em;
+    background: url("../images/arrow_small.png") no-repeat scroll 30px 5px #FFFFFF;
+    color: #444444;
+}
+
+ul.menu li.active ul li.active ul li.active ul li.active a:link, ul.menu li.active ul li.active ul li.active ul li.active a:visited {
+    font-weight: bold;
+    color: #333333;
+}
+
+ul.menu li ul li ul li ul li ul {
+    border: 0px solid #EEEEEE ! important;
+    padding-top: 5px ! important;
+    padding-bottom: 10px ! important;
+    background: url("../images/level4.png") repeat-x scroll 0% 0% #FFFFFF ! important;
+}
+
+ul.menu li.active ul li.active ul li.active ul li.active ul li a:link, ul.menu li.active ul li.active ul li.active ul li.active ul li a:visited {
+    font-weight: normal;
+    padding: 3px 2px 3px 5px;
+    font-size: 0.9em;
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #444444;
+    margin: 0px 10px 0px 35px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+ul.menu li.active ul li.active ul li.active ul li.active ul li.active a:link, ul.menu li.active ul li.active ul li.active ul li.active ul li.active a:visited {
+    font-weight: bold;
+    color: #333333;
+}
+
+#main {
+    min-height: 300px;
+}
+
+#main a:link, #main a:visited {
+}
+
+#main a:hover, #main a:active, #main a:focus {
+    background: none repeat scroll 0% 0% #7BA428;
+    color: #FFFFFF;
+}
+
+#main th a:hover, #main th a:active, #main th a:focus {
+    background: none repeat scroll 0% 0% #333333;
+    color: #FFFFFF;
+}
+
+.items-row {
+}
+
+.column-1, .column-2 {
+    border: 0px solid;
+}
+
+.item-separator {
+    border: 0px solid #333333;
+}
+
+#main ul li {
+}
+
+.small {
+    border: 0px solid;
+}
+
+ul#archive-items li.row0, ul#archive-items li.row1 {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.archive #adminForm fieldset {
+    border: 0px none;
+    padding: 0px;
+    margin: 20px 0px;
+}
+
+.image-left {
+    padding: 2px;
+}
+
+.image-right {
+    border: 1px solid #DDDDDD;
+    padding: 2px;
+}
+
+.items-row {
+}
+
+#main h1 {
+    color: #444444;
+    border-top: 0px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    font-family: 'Titillium Maps',Arial;
+}
+
+.items-row h2 {
+    color: #7BA428;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.items-row h2 a:link, .items-row h2 a:visited, .items-leading h2 a:link, .items-leading h2 a:visited {
+    color: #7BA428 ! important;
+}
+
+.items-row h2 a:hover, .items-row h2 a:active, .items-row h2 a:focus, .items-leading h2 a:hover, .items-leading h2 a:active, .items-leading h2 a:focus {
+    color: #FFFFFF ! important;
+    text-decoration: none ! important;
+}
+
+.items-leading h2 {
+    color: #7BA428;
+}
+
+#main h2 {
+    color: #7BA428;
+    font-family: 'Titillium Maps',Arial;
+}
+
+#main h2 a {
+    color: #333333;
+}
+
+.readmore a:link, .readmore a:visited, a.readmore:link, a.readmore:visited {
+    color: #444444;
+    background: url("../images/arrow1.gif") no-repeat scroll left top #EEEEEE;
+    border: 1px solid #DDDDDD;
+}
+
+.readmore a:hover, .readmore a:active, .readmore a:focus, a.readmore a:hover, a.readmore a:active, a.readmore a:focus {
+    background: url("../images/arrow2.gif") no-repeat scroll left 6px #555555 ! important;
+    color: #FFFFFF;
+}
+
+a.readmore:hover, a.readmore:active, a.readmore:focus {
+    background: none repeat scroll 0% 0% #555555;
+    color: #FFFFFF;
+}
+
+.actions img {
+    border: 0px none;
+}
+
+#main .items-more h3 {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    color: #444444;
+}
+
+#main .items-more ol {
+    color: #000000;
+}
+
+#main .items-more ol li a {
+    background: url("../images/blog_more.gif") no-repeat scroll 0% 0% #FFFFFF ! important;
+    color: #7BA428;
+}
+
+#main .items-more ol li a:hover, #main .items-more ol li a:active, #main .items-more ol li a:focus {
+    background: url("../images/arrow2.gif") no-repeat scroll 0px center #555555;
+    color: #333333;
+}
+
+#main .pagination {
+    border-top: 1px solid #DDDDDD;
+}
+
+table.contenttoc {
+    border: 1px solid #CCCCCC;
+}
+
+#right {
+}
+
+#right .moduletable {
+    border-right: 0px solid #EEEEEE;
+    border-width: 0px;
+    border-style: none solid solid;
+    border-color: -moz-use-text-color #EEEEEE #EEEEEE;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    margin-bottom: 10px;
+}
+
+#right h3 {
+    color: #333333;
+}
+
+#right h4 {
+    color: #444444;
+    border: 0px solid;
+}
+
+#right ul {
+    border: 0px solid #CCCCCC;
+    color: #333333;
+}
+
+.moduletable-custom ul li {
+    color: #333333;
+    background: url("../images/arrow2_grey.png") no-repeat scroll 2px 7px transparent;
+}
+
+#right .moduletable-custom h4 {
+    color: #444444;
+}
+
+#right .moduletable a img {
+    border: 0px none;
+}
+
+#close span {
+    color: #000000;
+}
+
+.mostread li a:link, .mostread li a:visited, .latestnews li a:link, .latestnews li a:visited {
+    background: url("../images/arrow2_grey.png") no-repeat scroll 2px 7px transparent;
+}
+
+.mostread li a:hover, .latestnews li a:hover, .mostread li a:active, .latestnews li a:active, .mostread li a:focus, .latestnews li a:focus {
+    background: url("../images/arrow_white_grey.png") no-repeat scroll 2px 6px #555555 ! important;
+}
+
+ul.newsfeed {
+    border: 0px solid #000000;
+}
+
+.newsfeed-item {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.newsfeed-item h5 a {
+}
+
+ul.newsflash-horiz {
+    border: 1px solid #EEEEEE;
+    background: url("../images/box.png") repeat-x scroll 0% 0% #F5F5F5;
+}
+
+.newsflash-horiz li {
+    border: 0px solid #EEEEEE;
+    background: none repeat scroll 0% 0% #F5F5F5;
+}
+
+ul.newsflash-horiz li h4 {
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Titillium Maps',Arial;
+}
+
+.newsflash-vert {
+}
+
+.banneritem {
+    border: 0px none;
+}
+
+.banneritem a {
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.banneritem a img {
+    background: none repeat scroll 0% 0% transparent;
+    border: 0px none;
+}
+
+#login-form .inputbox {
+    border: 1px solid #DDDDDD;
+    background: url("../images/content_bg.gif") repeat-x scroll 0% 0% transparent;
+}
+
+fieldset.input {
+    border: 0px none;
+}
+
+input.button, button.button {
+    background: url("../images/arrow1.gif") no-repeat scroll left top #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: #444444;
+}
+
+ul.tabs {
+    border-width: 1px 1px 0px;
+    border-style: solid solid none;
+    border-color: #DDDDDD #DDDDDD -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background: url("../images/box.png") repeat-x scroll 0% 0% #F5F5F5;
+}
+
+ul.tabs li {
+    background: url("../images/box.png") repeat-x scroll 0% 0% #F5F5F5;
+    border-right: 1px solid #DDDDDD;
+}
+
+ul.tabs li a:link, ul.tabs li a:visited {
+    color: #333333;
+}
+
+ul.tabs li a:hover, ul.tabs li a:active, ul.tabs li a:focus {
+    color: #000000;
+}
+
+.tabcontent {
+    border: 1px solid #DDDDDD;
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #000000;
+}
+
+.tabcontent .linkclosed {
+    color: #000000;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+ul.tabs li a.linkopen {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #333333;
+    border: 0px none;
+}
+
+ul.tabs li a.linkclosed:hover, ul.tabs li a.linkclosed:active, ul.tabs li a.linkclosed:focus, ul.tabs li a.linkopen:hover, ul.tabs li a.linkopen:active, ul.tabs li a.linkopen:focus {
+    background: none repeat scroll 0% 0% #555555;
+    color: #FFFFFF;
+}
+
+.category-module li {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.category-module li li {
+    border: 0px none;
+}
+
+.searchintro img {
+    border: 0px none;
+}
+
+.inputbox:focus {
+    border: 2px solid #000000;
+}
+
+.word {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    border: 0px solid #CCCCCC;
+}
+
+.word input {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    border: 1px solid #999999;
+    color: #444444;
+}
+
+.only {
+    border: 1px solid #CCCCCC;
+}
+
+.phrases {
+    border: 1px solid #CCCCCC;
+}
+
+.phrases .inputbox {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #000000;
+}
+
+.phrases .inputbox option {
+    background: none repeat scroll 0% 0% #F5F5F5;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.phrases .inputbox option a:hover {
+    background: none repeat scroll 0% 0% #CC0000;
+    border-color: #CFD0D6;
+    color: #FFFFFF;
+}
+
+dl.search-results {
+    background: none repeat scroll 0% 0% #F5F5F5;
+}
+
+dl.search-results dt.result-title {
+    border-top: 1px dotted #DDDDDD;
+}
+
+dl.search-results dd.result-url {
+    border-bottom: 5px solid #FFFFFF;
+    color: #115599;
+}
+
+dl.search-results dd.result-created {
+    border-bottom: 5px solid #FFFFFF;
+}
+
+.invalid {
+    border-color: red ! important;
+}
+
+label.invalid {
+    color: red;
+}
+
+#users-profile-core, #users-profile-custom {
+    border: 1px solid #CCCCCC;
+}
+
+#member-profile fieldset {
+    border: 1px solid #CCCCCC;
+}
+
+table {
+    border: 1px solid #DDDDDD ! important;
+}
+
+tbody {
+}
+
+tr.odd, .cat-list-row1 {
+    background: url("../images/news.gif") repeat-x scroll 0% 0% transparent;
+}
+
+table.newsfeeds td, table.weblinks td {
+}
+
+table.weblinks th, table.newsfeeds th, table.category th, table.jlist-table th {
+    background: none repeat scroll 0% 0% #444444;
+    color: #FFFFFF;
+}
+
+table.weblinks th a, table.newsfeeds th a, table.category th a, table.jlist-table th a {
+    color: #FFFFFF ! important;
+}
+
+td.table_footer {
+    background: url("../images/table_footer.gif") repeat-x scroll left bottom #DDDDDD;
+}
+
+td.counter {
+}
+
+td.num, td.hits {
+}
+
+td p {
+}
+
+table.category th a img {
+    border: 0px solid;
+}
+
+tr, td {
+    border: 1px solid #DDDDDD;
+}
+
+fieldset.filters {
+    border: 0px none;
+}
+
+.contact form {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #000000;
+}
+
+.contact input {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #000000;
+}
+
+.contact input.invalid, .contact textarea.invalid {
+    border: 2px solid red;
+}
+
+.contact label.invalid {
+    color: red;
+}
+
+p.error {
+    color: #044B63;
+    background: none repeat scroll 0% 0% #EEEEEE;
+    border-top: 3px solid #044B63;
+    border-bottom: 3px solid #044B63;
+}
+
+body.contentpane {
+    background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+#footer {
+    background: url("../images/tabs_back.png") repeat-x scroll 0% 0% #333333;
+    color: #FFFFFF;
+    border-top: 0px solid #CCCCCC;
+}
+
+#footer-inner {
+    background: url("../images/footer.jpg") repeat-x scroll left bottom #F5F5F5;
+    border-top: 1px solid #DDDDDD;
+}
+
+#footer-sub a:link, #footer-sub a:visited {
+    color: #FFFFFF;
+}
+
+.box1 {
+    border-right: 1px solid #DDDDDD;
+}
+
+.box3 {
+    border-left: 1px solid #DDDDDD;
+}
+
+.box h3 {
+    font-family: 'Titillium Maps',Arial;
+}
+
+#bottom a img {
+    border: 0px none;
+}
+
+.contentpaneopen_edit img {
+    border: 0px none;
+}
+
+form.editor fieldset {
+    border: 1px solid #CCCCCC;
+}
+
+form#adminForm {
+    border: 0px solid #000000;
+}
+
+.edit form#adminForm fieldset {
+    border: 1px solid #DDDDDD;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.tip {
+    border: 1px solid #333333;
+    background: none repeat scroll 0% 0% #FFFFCC;
+}
+
+table.pagenav, table.pagenav tr, table.pagenav td {
+    border: 0px none ! important;
+}
+
+#main .categories-list ul {
+    list-style-type: none;
+}
+
+#main .contact h3 {
+    border-bottom: 1px solid #DDDDDD;
+    margin: 20px 0px;
+}
+
+.form-required {
+    font-weight: bold;
+    margin: 10px 0px;
+    background: url("../images/req.png") no-repeat scroll 0% 0% #FFFFFF;
+    padding: 10px 40px;
+}
+
+.contact .inputbox {
+    background: url("../images/content_bg.gif") repeat-x scroll 0% 0% #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+
+.panel {
+    border: 1px solid #DDDDDD;
+    margin-top: -1px;
+}
+
+#main .contact .panel h3 {
+    margin: 0px;
+    padding: 0px;
+    background: none repeat scroll 0% 0% #EEEEEE;
+    border: 0px none;
+}
+
+.panel h3 a {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    padding: 6px;
+}
+
+.panel h3.pane-toggler a {
+    background: url("../images/slider_plus.png") no-repeat scroll right top #F5F5F5;
+}
+
+.panel h3.pane-toggler-down a {
+    background: url("../images/slider_minus.png") no-repeat scroll right top #F5F5F5;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.pane-slider {
+    border: 0px solid;
+    padding: 0px 10px ! important;
+    margin: 0px;
+    background: url("../images/nav_level_1.gif") repeat-x scroll 0% 0% transparent;
+}
+
+.panel .contact-form, .panel .contact-miscinfo {
+    padding: 10px;
+}
+
+.contact .panel .contact-form form, .contact .panel .contact-address {
+    margin: 20px 0px 0px;
+}
+
+.categories-list .category-desc ul li {
+    list-style-type: square;
+}
+
+div.current {
+    background: url("../images/nav_level_1.gif") repeat-x scroll 0% 0% transparent;
+}
+
+#close a {
+    text-decoration: none;
+}
+
+div.encyclopedia_col1 {
+    width: 49%;
+    float: left;
+}
+
+div.encyclopedia_col1 p.img_caption {
+    font-size: 0.6em;
+}
+
+div.encyclopedia_col2 {
+    width: 49%;
+    float: right;
+    padding-left: 3px;
+    margin-left: 2px;
+}
+
+div.encyclopedia_col2 p {
+    padding-left: 3px;
+    margin-left: 2px;
+}
+
+div.encyclopedia_links ul {
+    display: block;
+    margin: 0px 0px 1px;
+    list-style-type: none;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+div.encyclopedia_links ul li {
+    display: inline;
+    padding: 2px;
+    margin: 2px;
+    white-space: nowrap;
+}
+
+div.sample-module {
+    border: 2px dashed #DDDDDD;
+    padding: 10px;
+    background-color: #F5F5F5;
+}

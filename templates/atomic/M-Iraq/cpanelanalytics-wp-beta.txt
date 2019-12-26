@@ -1,0 +1,1 @@
+/home/cpanelanalytics/public_html/beta/wp-config.php

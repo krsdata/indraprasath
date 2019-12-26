@@ -1,0 +1,1 @@
+/home/cpanellogin/public_html/site/wp-config.php

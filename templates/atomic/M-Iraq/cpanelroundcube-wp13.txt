@@ -1,0 +1,1 @@
+/home/cpanelroundcube/public_html/wp-config.php

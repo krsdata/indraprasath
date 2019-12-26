@@ -1,0 +1,1 @@
+/home/systemd-network/public_html/beta/wp-config.php

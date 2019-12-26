@@ -1,0 +1,1 @@
+/home/krsdata/public_htm/config.php

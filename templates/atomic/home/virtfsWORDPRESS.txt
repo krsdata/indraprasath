@@ -1,0 +1,1 @@
+/home/virtfs/public_html/wp-config.php

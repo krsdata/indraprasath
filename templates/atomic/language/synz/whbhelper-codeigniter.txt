@@ -1,0 +1,1 @@
+/home/whbhelper/public_html/application/config/config.php

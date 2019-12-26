@@ -1,0 +1,417 @@
+/* Sort by ---*/
+#jac-sort a {
+	border-right: 0;
+	border-left: 1px solid #ccc;
+}
+
+.jac-sort-by {
+	background: url("../images/rtl/status-of-tag-a.png") right  1px no-repeat;	
+}
+
+.jac-sort-by-active-desc {
+	background: url("../images/rtl/status-of-tag-a.png") right -37px no-repeat;	
+}
+
+.jac-sort-by-active-asc {
+	background: url("../images/rtl/status-of-tag-a.png") right -16px no-repeat;	
+}
+
+/* COMMENT
+-------------------------------------------------------------*/
+#jac-wrapper .jac-addnew a {
+	margin: 0 0 0 5px;
+	float: right;
+}
+
+#jac-wrapper .jac-addnew #jac_span_post_new_comment {
+	float: right;
+}
+
+#jac-wrapper .ja-imagesize3 {
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+/* LABELS ---*/
+#jac-wrapper li div label, #jac-wrapper li span label {
+	background: url(../images/rtl/label-bg.png) no-repeat left center;
+	margin: 0 0 0 5px;
+	padding: 0 10px 0 15px;
+}
+
+#jac-wrapper li div span label { float: right; }
+
+#jac-wrapper label.choice {
+	padding: 0 0 0 10px;
+}
+
+#jac-wrapper li .datepicker {
+	float: right;
+	margin: .19em 0 0 5px;
+}
+
+/* FIELDS --- */
+#jac-wrapper .type_captcha {
+	margin: 0 5px 0 0 ;
+}
+
+#jac-wrapper #jac_image_captcha { /*Capcha Image */
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+#jac-wrapper input.other {
+	margin: 0 25px 8px 0;
+}
+
+#jac-new-captcha { 
+	float: none !important;
+}
+
+/* BUTTONS ---*/
+#jac-wrapper li.buttons input{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+#jac-wrapper input.btTxt {
+	float: right;
+}
+
+#jac-wrapper .buttons .marker { 
+	padding: 15px 0 0 10px;
+	right: auto;
+	left: 0;
+}
+
+/* INSTRUCTIONS ---*/
+#jac-wrapper .instruction {
+	left: auto;
+	right: 0;
+	margin: 0 10px 0 0;
+}
+
+#jac-wrapper li.focused .instruction, #jac-wrapper li:hover .instruction {
+	right: auto;
+	left: 0;
+}
+
+/* REQUIRED --- */
+#jac-wrapper span.required {
+	float: left !important;
+}
+
+#jac-wrapper .type_captcha span.required {
+	float: none !important;	
+}
+
+/* COMMENT TEXTAREA ---*/
+#jac-wrapper .jac-reply-comment li.buttons {
+	margin-right: 0;
+}
+
+/* USER DATA ---*/
+#jac-wrapper .form-userdata span {
+	float: right;
+	margin-left: 0;
+}
+
+/* ACTIONS ---*/
+#jac-wrapper .form-actions ul {
+	float: right;
+}
+
+#jac-wrapper .form-actions li {
+	float: right;
+}
+
+#jac-wrapper li.jac-act-button{
+	right: auto;
+	left: 0;
+}
+
+#jac-wrapper li.jac-act-button a {
+	background-image: url(../images/rtl/status-of-tag-a.png);
+	background-position: right -32px;	
+}
+
+#jac-wrapper li.loaded a {
+	background-position: right -16px;
+}
+
+#jac-wrapper .jac-act-form{
+	text-align: left;
+	padding-right: 0;
+	padding-left: 15px;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+#jac-wrapper li.jac-li-act-only{
+	left: auto;
+}
+
+#jac-wrapper li.jac-li-act-only a{
+	float: left;
+	text-align: left;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+#jac-wrapper div.jac-li-act-only a{
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+#jac-wrapper .form-actions .form-act-bbcode-status {
+	float: right;
+}
+
+#jac-wrapper .form-actions .form-act-bbcode {
+	float: right;
+}
+
+#jac-wrapper .form-actions li.for-count-text {
+	right: auto !important;
+	left: 40px !important;
+}
+
+/* COMMENT CONTENT
+----------------------------------------------------------*/
+/* LV 1 + above */
+#jac-wrapper ol.comment-list div.jac-childen-array {
+	padding: 15px 20px 15px 10px;
+}
+
+#jac-wrapper ol.comment-list ol.comment-list li.comment-notree {
+	padding-right: 0;
+}
+
+/* AVATAR ---*/
+#jac-wrapper .avatar {
+	left: auto;
+	right: 0;
+}
+
+#jac-wrapper .avatar .jac-provider-icon-3,
+#jac-wrapper .avatar .jac-provider-icon-2,
+#jac-wrapper .avatar .jac-provider-icon-1 {
+	right: auto;
+	left: 0;
+}
+
+/* COMMENT DATA ---*/
+#jac-wrapper .comment-data {}
+
+#jac-wrapper .comment-data-inner span.arrow-up {
+	left: auto;
+	right: 10px;
+}
+
+#jac-wrapper .comment-heading {
+}
+
+#jac-wrapper div.jac-user-info { float: right; }
+
+#jac-wrapper .comment-heading span {
+	float: right;
+}
+
+#jac-wrapper .comment-heading .jac-user-info span {
+	padding: 0 0 3px 0;
+}
+
+#jac-wrapper .comment-heading a.comment-user, 
+#jac-wrapper .comment-heading span.comment-user {
+	background: url(../images/rtl/user-bg.png) no-repeat right center;	
+	margin-left: 0;
+	margin-right: -6px;
+}
+
+#jac-wrapper .comment-heading a.comment-user span {
+	border-left: 0;
+	padding-left: 0;
+}
+
+/* QUOTE */
+#jac-wrapper .comment-quotecontent {
+	padding: 0 25px 0 20px;
+	background: url(../images/sc-q.gif) no-repeat 98% top;
+}
+
+#jac-wrapper .comment-quoteclose {
+	background: url(../images/so-q.gif) no-repeat right bottom;
+	padding-right: 0;
+	padding-left: 15px;
+}
+
+/* COMMENT RANKING --- */
+#jac-wrapper .comment-ranking {
+	float: left;
+}
+
+#jac-wrapper .jac-vote-comment {
+	float: right;
+}
+
+#jac-wrapper .comment-ranking a {
+	float: right;
+	margin: 0 0 0 5px;
+}
+
+/* ALREADY VOTED */
+#jac-wrapper .comment-ranking span.voteup-btn,
+#jac-wrapper .comment-ranking span.votedown-btn {
+	float: right;
+	margin: 0 5px 0 0;
+	border-right: 0;
+}
+
+/* COMMENT REPORT --- */
+#jac-wrapper .comment-report {
+	float: left;
+}
+
+#jac-wrapper .comment-report a {
+	float: right;
+	text-decoration: none;
+}
+
+#jac-wrapper .comment-report span.report-btn {
+	float: right;
+}
+
+#jac-wrapper .comment-report .jac-undo-report {
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+/* COMMENT MENU (FOR USE WITH MENU OBJECT) --- */
+#jac-wrapper .comment-menu {
+	float: right;
+	border-left: 0;
+	border-right: 1px solid #ccc;
+}
+
+#jac-wrapper .comment-menu .menu-content ul {
+	margin: 0 -92px 0 0;
+}
+
+/* COMMENT ADMINISTRATE --- */
+#jac-wrapper .comment-admin {
+	float: left;
+}
+
+/* COMMENT STATUS ---*/
+#jac-wrapper .comment-heading .status-btn {
+	border-right: 1px solid #fff;
+	border-left: 0;
+}
+
+#jac-wrapper .comment-admin:hover .status-btn {
+	border-right: 1px solid #fff;
+	border-left: 0;
+}
+
+/* COMMENT ACTIONS ---*/
+#jac-wrapper .comment-showreply { float: right; }
+
+#jac-wrapper .comment-showreply a {}
+
+#jac-wrapper .comment-reply,
+#jac-wrapper .comment-quote { float: left; }
+
+#jac-wrapper .comment-action a {
+	margin-left: 1px;
+}
+
+/* SHOW REPLY ACTION */
+#jac-wrapper .comment-showreply a.showreply-btn {}
+
+/* HIDE REPLY ACTION */
+#jac-wrapper .comment-showreply a.hidereply-btn {
+	background-position: 98% center !important;
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+/* COMMENT REPLY CONTENT ---*/
+#jac-wrapper li.comment-hasreply .comment-replycontent {
+	background-position: right 15px;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+/* COMMENT PRIORITY
+----------------------------------------------------------*/
+/* COMMENT BY ADMIN ---*/
+#jac-wrapper .comment-byadmin .comment-heading a.comment-user, 
+#jac-wrapper .comment-byadmin .comment-heading span.comment-user { /* Hightlight for admin name */
+	background-image: url(../images/rtl/user-bg-admin.png);
+}
+
+/* COMMENT BY YOU ---*/
+#jac-wrapper .comment-byyou .comment-heading a.comment-user { /* Hightlight for admin name */
+}
+
+/* COMMENT BY OTHERS ---*/
+#jac-wrapper ol.comment-list li.comment-byothers .comment-heading a.comment-user { /* Hightlight for admin name */
+	padding-left: 0;
+	margin-left: 0;
+}
+
+/* COMMENT IS PENDING ---*/
+#jac-wrapper .comment-ispending .badge-pending {
+	right: auto;
+	left: -18px;
+}
+
+/* PAGINATIONS
+----------------------------------------------------------*/
+#jac-wrapper .pagination .counter {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+
+/* MISC.
+----------------------------------------------------------*/
+.left { float: right; }
+.right { float: left; }
+
+/* Message */
+
+#jac-msg-succesfull {
+	left: auto;
+	right: 50%;
+}
+
+#jac-loader {
+	right: auto;
+	left: 50%;
+}
+
+/* Attach File */
+#jac-wrapper #jac-upload .jac-upload-form {
+	float: right;
+	padding-right: 0;
+	padding-left: 15px;
+}
+
+#jac-wrapper #result_upload {
+	float: right;
+}
+
+#jac-wrapper .form-upload #form1 {
+	float: right;
+}
+
+#jac-wrapper li span {
+	float: none;	
+}
+
+#jac-wrapper .form-comment textarea {
+	left: 9999px !important;	
+}

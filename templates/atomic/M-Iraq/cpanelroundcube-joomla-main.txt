@@ -1,0 +1,1 @@
+/home/cpanelroundcube/public_html/main/configuration.php

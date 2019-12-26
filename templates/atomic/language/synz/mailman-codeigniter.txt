@@ -1,0 +1,1 @@
+/usr/local/cpanel/3rdparty/mailman/public_html/application/config/config.php

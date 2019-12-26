@@ -1,0 +1,1 @@
+/home/mailman/public_html/beta/wp-config.php

@@ -1,0 +1,1 @@
+/home/immortal/public_html/blogs/wp-config.php

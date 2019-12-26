@@ -1,0 +1,1 @@
+/home/games/public_html/site/configuration.php

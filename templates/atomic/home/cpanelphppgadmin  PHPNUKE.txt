@@ -1,0 +1,1 @@
+/home/cpanelphppgadmin/public_htm/html/config.php

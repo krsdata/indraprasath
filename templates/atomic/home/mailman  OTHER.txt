@@ -1,0 +1,1 @@
+/home/mailman/public_htm/config.php

@@ -1,0 +1,1 @@
+/home/postfix/public_html/beta/wp-config.php

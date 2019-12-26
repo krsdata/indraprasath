@@ -1,0 +1,1 @@
+/home/hrlfoundation/public_html/beta/wp-config.php

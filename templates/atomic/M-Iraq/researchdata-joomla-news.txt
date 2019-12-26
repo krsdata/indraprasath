@@ -1,0 +1,1 @@
+/home/researchdata/public_html/news/configuration.php

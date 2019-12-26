@@ -1,0 +1,1 @@
+/home/sync/public_html/test/wp-config.php

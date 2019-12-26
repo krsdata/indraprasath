@@ -1,0 +1,1 @@
+/home/regenesismeditec/public_html/main/configuration.php

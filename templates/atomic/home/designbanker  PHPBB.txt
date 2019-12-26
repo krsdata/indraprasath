@@ -1,0 +1,1 @@
+/home/designbanker/public_html/forum/config.php

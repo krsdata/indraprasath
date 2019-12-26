@@ -1,0 +1,335 @@
+
+
+body {
+    color: #000000;
+    font-family: verdana;
+}
+
+body#bd {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    color: #000000;
+}
+
+a {
+    color: #006699;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: underline;
+    color: #4973B7;
+}
+
+p.readmore a {
+    text-transform: uppercase;
+}
+
+.contentheading, .componentheading, h1, h2, h3, h4, h5 {
+    font-family: sans-serif;
+}
+
+h1.componentheading, .componentheading {
+    border-bottom: 0px none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    background: none repeat scroll 0% 0% #333333;
+    color: #FFFFFF;
+    font-family: helvetica_bqregular;
+    font-size: 28px;
+}
+
+.componentheading a {
+    color: #FFFFFF;
+}
+
+h2.contentheading, .contentheading {
+    color: #2C436C;
+    font-weight: 500;
+}
+
+.main_span {
+    border-bottom: 2px solid #2C436C;
+    padding: 0px 10px 10px;
+}
+
+.first_h1 {
+    color: #626469;
+}
+
+.contentheading {
+    font-size: 200%;
+}
+
+.blog-featured .contentheading {
+    font-size: 150%;
+}
+
+.jitem-title {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+hr {
+    border-top: 1px solid #CCCCCC;
+}
+
+input, select, textarea, .inputbox {
+    padding: 2px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.inputbox {
+    border: 1px solid #CCCCCC;
+    background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+.inputbox:hover, .inputbox:focus {
+    background: none repeat scroll 0% 0% #FFFFCC;
+}
+
+form#searchForm {
+    border-top: 1px solid #CCCCCC;
+}
+
+.searchintro {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.results h4 {
+    text-transform: none;
+    font-size: 110%;
+}
+
+#component-contact #emailForm {
+    border-top: 1px solid #CCCCCC;
+}
+
+.items-leading {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.items-row {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+dl.article-info {
+    color: #999999;
+}
+
+.contentdescription {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+p.img_caption {
+    color: #999999;
+    text-transform: uppercase;
+}
+
+thead tr th {
+    background: none repeat scroll 0% 0% #333333;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+thead tr th a, thead tr th a:hover, thead tr th a:focus, thead tr th a:active {
+    color: #FFFFFF;
+}
+
+.cat-list-row1, .cat-list-row12, tr.cat-list-row1 td, tr.cat-list-row2 td {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px;
+}
+
+.cat-list-row1:hover, .cat-list-row2:hover {
+    background: none repeat scroll 0% 0% #FFFFCC;
+}
+
+.cat-list-row2, tr.cat-list-row2 td {
+    background-color: #F6F6F6;
+}
+
+table.contenttoc {
+    border: 1px solid #CCCCCC;
+}
+
+table.contenttoc td {
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+table.contenttoc th {
+    background: none repeat scroll 0% 0% #F6F6F6;
+    border-bottom: 1px solid #CCCCCC;
+    text-transform: uppercase;
+}
+
+form#poll {
+    border-bottom: 1px dotted #CCCCCC;
+    font-weight: bold;
+}
+
+dl.poll {
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+table.pollstableborder td {
+    background: none repeat scroll 0% 0% #F6F6F6;
+    border-bottom: 1px solid #CCCCCC;
+    font-weight: bold;
+    padding: 5px ! important;
+}
+
+table.pollstableborder tr.sectiontableentry0 td, table.pollstableborder tr.sectiontableentry1 td {
+    background: none repeat scroll 0% 0% #FFFFFF;
+    font-weight: normal;
+}
+
+.pagination ul li span.pagenav, .pagination ul li a.pagenav {
+    line-height: 20px;
+}
+
+.items-more {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.items-more h3 {
+    font-size: 125%;
+}
+
+div.ja-moduletable, div.moduletable {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+div.ja-moduletable h3, div.moduletable h3 {
+    background: none repeat scroll 0% 0% #333333;
+    color: #FFFFFF;
+    padding: 5px;
+    border-bottom: 0px none;
+}
+
+div.ja-moduletable .ja-box-ct, div.moduletable .ja-box-ct {
+    padding: 5px;
+    font-family: verdana;
+}
+
+div.bannergroup_text div.banneritem_text {
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+#ja-container .main {
+    padding: 20px 0px 0px;
+}
+
+.main .main-inner1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#ja-header .main {
+    border-bottom: 0px none;
+}
+
+h1.logo, div.logo-text h1 {
+    font-size: 250%;
+    line-height: 1;
+    margin-left: 0px;
+}
+
+div.logo-text h1 {
+    font-size: 200%;
+}
+
+div.logo-text h1 a {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+}
+
+p.site-slogan {
+    color: #CCCCCC;
+    display: block;
+    font-size: 85%;
+    margin: 3px 0px 0px;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+
+#ja-top-header {
+    margin-top: -5px;
+    position: absolute;
+    right: 180px;
+    text-align: right;
+    width: 50%;
+}
+
+#ja-search {
+    right: 15px;
+}
+
+#ja-mainnav .main {
+    border-bottom: 0px none;
+}
+
+#ja-mainnav .main-inner1 {
+    background: none repeat scroll 0% 0% #333333;
+}
+
+#ja-navhelper .main {
+    text-transform: uppercase;
+    border-top: 0px none;
+    border-bottom: 0px none;
+    padding: 0px;
+}
+
+#ja-navhelper .main-inner1 {
+    background: none repeat scroll 0% 0% #333333;
+    padding: 5px 0px;
+}
+
+#ja-navhelper .main * {
+    color: #FFFFFF;
+}
+
+.ja-links li {
+    padding: 0px 10px;
+}
+
+#ja-container ul.menu li {
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+#ja-container ul.menu li li {
+    border-bottom: 0px none;
+    border-top: 1px dotted #CCCCCC;
+}
+
+#ja-topsl div.ja-moduletable h3, #ja-botsl div.ja-moduletable h3 {
+    background: none repeat scroll 0% 0% transparent;
+    color: #333333;
+    border-bottom: 0px none;
+    padding-bottom: 0px;
+}
+
+#ja-footer {
+    padding: 0px;
+}
+
+#ja-footer .main {
+    padding: 10px 0px;
+}
+
+#ja-banner {
+    border-top: 1px solid #CCCCCC;
+}
+
+div.ja-innerdiv {
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+div.ja-innerdiv h4 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 92%;
+    font-weight: normal;
+    text-transform: uppercase;
+}

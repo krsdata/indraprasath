@@ -1,0 +1,1 @@
+r/public_html/blog/wp-config.php

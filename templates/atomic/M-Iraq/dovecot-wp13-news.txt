@@ -1,0 +1,1 @@
+/home/dovecot/public_html/news/wp-config.php

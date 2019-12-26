@@ -1,0 +1,1 @@
+/home/nfsnobody/public_html/forum/config.php

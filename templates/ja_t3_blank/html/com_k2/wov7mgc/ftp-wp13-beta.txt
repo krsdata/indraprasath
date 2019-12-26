@@ -1,0 +1,1 @@
+/var/ftp/public_html/beta/wp-config.php

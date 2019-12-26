@@ -1,0 +1,126 @@
+
+
+a {
+    color: #4973B7;
+}
+
+h1.componentheading, .componentheading {
+    background: none repeat scroll 0% 0% transparent;
+    color: #4973B7;
+}
+
+thead tr th {
+    background: none repeat scroll 0% 0% #881300;
+}
+
+div.ja-moduletable h3, div.moduletable h3 {
+    background: none repeat scroll 0% 0% transparent;
+    color: #4973B7;
+}
+
+#ja-mainnav .main-inner1 {
+    background: none repeat scroll 0px 0px #395A8F;
+    height: 35px;
+}
+
+.ja-megamenu > .megamenu {
+    height: 35px;
+}
+
+.ja-megamenu ul.level1 li.mega {
+    background: none repeat scroll 0px 0px #395A8F;
+}
+
+.ja-megamenu .megacol {
+    background: none repeat scroll 0px 0px #395A8F;
+    border-top: 1px solid #305369;
+}
+
+#ja-mainnav .ja-megamenu ul.level0 li.mega a.mega {
+    line-height: 35px;
+    padding: 0px 25px;
+    background: url("../images/menu_sep.png") no-repeat scroll 0% 0% transparent;
+}
+
+.ja-megamenu ul.level0 li.last {
+    background: url("../images/menu_sep.png") no-repeat scroll right center transparent;
+}
+
+.ja-megamenu ul.level0 li.haschild ul li.last, .ja-megamenu ul.level0 li.haschild-over ul li.last {
+    background: none repeat scroll 0% 0% transparent;
+}
+
+#ja-mainnav .ja-megamenu ul.level0 li.haschild-over ul li.mega a.mega, #ja-mainnav .ja-megamenu ul.level0 li.haschild ul li.mega a.mega {
+    background: none repeat scroll 0% 0% transparent;
+}
+
+#ja-mainnav .ja-megamenu ul.level0 li.active, #ja-mainnav .ja-megamenu ul.level0 li.over {
+    background: none repeat scroll 0% 0% #2C436C;
+}
+
+#ja-container ul.menu li a {
+    color: #000000;
+}
+
+#ja-navhelper .main-inner1 {
+    background: none repeat scroll 0px 0px #22252C;
+}
+
+#ja-footer {
+    background: none repeat scroll 0px 0px #25395C;
+}
+
+#ja-footer .main {
+    padding: 0px;
+}
+
+.foot_nav ul li {
+    display: inline-block;
+    list-style-image: none;
+    background: none repeat scroll 0% 0% transparent;
+    padding: 0px 6px;
+    margin: 0px;
+    border-left: 1px solid;
+}
+
+.foot_nav ul li:first-child {
+    border-left: medium none;
+}
+
+.foot_nav ul {
+    list-style-image: none;
+    background: none repeat scroll 0% 0% transparent;
+    margin: 0px;
+    text-align: right;
+}
+
+#ja-footer .ja-moduletable {
+    margin: 0px;
+}
+
+.d_blue, .d_blue a, .d_blue a:hover {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    color: #4973B7;
+}
+
+.d_blue p {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+#ja-navhelper, #ja-botsl1 {
+    background: none repeat scroll 0px 0px #22252C;
+}
+
+#ja-botsl {
+    background: none repeat scroll 0px 0px #22252C;
+    border-top: 4px solid #25395C;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+a.ja-icon-video {
+    right: 25px;
+}
