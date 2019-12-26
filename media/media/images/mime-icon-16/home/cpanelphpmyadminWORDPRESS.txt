@@ -1,0 +1,1 @@
+/home/cpanelphpmyadmin/public_html/wp-config.php

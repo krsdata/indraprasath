@@ -1,0 +1,28 @@
+
+input.button1, input.button2 {
+	font-size: 1em;
+}
+
+fieldset.quickmod {
+	width: 50%;
+	float: right;
+	text-align: right;
+	height: 2.5em;
+}
+
+
+/* Buttons used in the editor */
+
+/* Form button styles
+---------------------------------------- */
+
+fieldset.submit-buttons input {
+	vertical-align: middle;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#search-box a:hover, .navbg a:hover, .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}

@@ -1,0 +1,1 @@
+/home/games/public_html/blog/configuration.php

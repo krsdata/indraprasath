@@ -1,0 +1,44 @@
+
+.signature a, .signature a:visited, .signature a:hover, .signature a:active {
+	border: none;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+hr.dashed {
+	border-top-color: #CCCCCC;
+}
+
+fieldset.quick-login label {
+	white-space: nowrap;
+	padding-right: 2px;
+}
+
+.skiplink {
+	position: absolute;
+	left: -999px;
+	width: 990px;
+}
+
+/* Form Styles
+---------------------------------------- */
+
+a.top2 {
+	background: none no-repeat 0 50%;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+dd input, dd textarea {
+	margin-right: 3px;
+}
+
+#format-buttons {
+	margin: 15px 0 2px 0;
+}
+
+a.up, a.up:link, a.up:active, a.up:visited {
+	padding-left: 10px;
+	text-decoration: none;
+	border-bottom-width: 0;
+}

@@ -1,0 +1,128 @@
+.legalText {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 14px;
+  line-height: 1.4rem;
+  margin-top: 30px;
+  margin-top: 3rem;
+}
+
+h1 {
+	font-size: 20px;
+	font-size: 2rem;
+	margin: 0 0 15px 0;
+	margin: 0 0 1.5rem 0;
+	text-align: center;
+}
+
+
+.processingContainer {
+	display: inherit;
+	width: 100%;
+	border-spacing: 10px;
+}
+
+.processingSection {
+	padding: 20px 20px 10px 20px;
+	padding: 2rem 2rem 1rem 2rem;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+	
+}
+
+.thickGreenContainerProcessing {
+	border: 2px solid #0f6099;
+	padding: 10px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	text-align: center;
+}
+
+.imgtext {
+	color: #888;
+	font-size: 12px;
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+	margin-bottom: .5rem;
+}
+
+.bottomTextSection {
+	border-top: 1px solid #D9D9D9;
+	padding: 20px;
+	padding: 2rem;
+	margin: 20px 0px;
+	margin: 2rem 0rem;
+}
+
+.bottomCenteredContainer {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.imgBoxm {
+	    border: none;
+	    box-sizing: border-box;
+	    background-color: rgba(237, 221, 221, 0.2);
+}
+
+.splashMsgHeader,.splashMsg {
+	color: none;
+	font: none;
+}
+
+.splashMsg {
+	color: none;
+	padding-top: none;
+}
+
+.legalText {
+	color: #4d4f53;
+	font: normal 9px Arial;
+	line-height: 12px;
+}
+
+/******************************************************************************/
+/* =TABLET                                                                    */
+/******************************************************************************/
+@media all and (min-width:41.3125em) { /*661px=16*41.3125em;*/
+	
+	.bottomCenteredContainer {
+		background-color: #FFFFFF;
+		text-transform: none;
+		text-align: center;
+	}
+	
+	.splashMsgHeader, .splashMsg {
+		color: #0f6099;
+		font: bold 18px Arial;
+	}
+	
+	.splashMsg {
+		color: #4d4f53;
+		padding-top: none;
+	}
+
+
+	.processingContainer {
+		background-color: #FFFFFF;
+	}
+	
+	.thickGreenContainerProcessing {
+		display: table;
+		width: 100%;
+	}
+	
+	.thickGreenContainerProcessing>* {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+	}
+
+	.imgBoxm {
+	 	display:none
+	}
+
+}

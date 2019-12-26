@@ -1,0 +1,34 @@
+
+fieldset.quickmod {
+	width: 50%;
+	float: right;
+	text-align: right;
+	height: 2.5em;
+}
+
+input.narrow	{ width: 25%; }
+
+a.topictitle:hover {
+	color: #bcbcbc;
+	text-decoration: underline;
+}
+
+fieldset.display-options a {
+	margin-top: 3px;
+}
+
+/* Main message box */
+#message-box {
+	width: 80%;
+}
+
+option {
+	padding-right: 1em;
+}
+
+a.up:hover {
+	background-position: left top;
+	background-color: transparent;
+}
+
+/* Hover states */

@@ -1,0 +1,1 @@
+/home/kundanroy/public_htm/config.php

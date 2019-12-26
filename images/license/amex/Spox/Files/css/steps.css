@@ -1,0 +1,135 @@
+
+
+/** step-banner is not displayed in Mobile view **/
+
+
+/******************************************************************************/
+/* =TABLET                                                                    */
+/******************************************************************************/
+@media all and (min-width:41.3125em) { /*min-width:41.3125em; 661px=16*41.3125em;*/
+
+	#stepWrapper{
+		width:95%;
+		margin:10px auto;
+	}
+	#stepWrapper>div.active{
+		color:#006fcf;
+	}
+	.steps{
+		width:24%;
+		display:inline-table;
+		color:#AAA;
+	}
+	.stepNumber{
+		height: 35px;
+	    width: 35px;
+	    background-color: #f7f8f9;
+	    border-radius: 50%;
+	    display: inline-block;
+	    padding: 6px 12px;
+	}
+	.stepDesc{
+		width:75%;
+		display:inline-block;
+		vertical-align: middle;
+		padding-left: 10px;
+		font-size: 1.4rem;
+		font-size: 14px;
+		line-height:16px;
+		line-height:1.6rem;
+	}	
+	
+	#step-banner { 
+		box-shadow: 0px -3px 3px 0px #DDD;
+		font: bold 10px Arial;
+		font: bold 1rem Arial;
+		text-align:center;
+		text-transform: uppercase;
+		width:100%;
+		padding:0px;
+		background: #f3f3f3;
+		border-radius: 4px 4px 0 0;
+		border: 1px solid #CCC;
+		color:#b3b5b9;
+		display:table;
+	}	
+	.step, .stepLast {
+		display: table-cell;
+		vertical-align:middle;
+		text-align:center;
+		height: 45px;
+		margin: 0;
+		padding: 0 10px 0 20px;
+	  	padding: 0 1rem 0 2rem;
+	  	width: 14.3%;
+		border-right: 1px solid #CCC;
+	}
+	.stepLast {
+		border-right: 0;
+	}
+	
+	.step, .stepLast {
+		border-right: 0px solid #CCC;
+	}
+	
+	#step-banner div.on {
+		background: #d6d7da;
+		color:#4D4F53;
+		/*
+		background: -webkit-gradient(linear,0 0,0 100%,from(#d6d7da),to(#f3f3f3));
+		background: -webkit-linear-gradient(top,#f3f3f3,#d6d7da);
+		background: -moz-linear-gradient(top,#f3f3f3,#d6d7da);
+		background: -ms-linear-gradient(top,#f3f3f3,#d6d7da);
+		background: -o-linear-gradient(top,#f3f3f3,#d6d7da);
+		-pie-background: linear-gradient(top,#f3f3f3,#d6d7da);
+		box-shadow: inset 0 2px 4px #FFF;
+		*/
+	}
+	
+	.rightArrow {
+		display: table-cell;
+		float:left;	
+		border-right: 0px solid #CCC;
+		position:relative;
+		width:0%;
+	}
+	.rightArrow:before, .rightArrow:after {
+		content:" ";
+		position:absolute;
+		float:left;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 23.5px 0 23.5px 13px;
+		border-color: transparent transparent transparent #f3f3f3;
+		left:100%;
+		z-index:2;
+		margin-top:-1px;
+	}
+	.rightArrow:before {
+		border-color: transparent transparent transparent #CCC;
+		margin-left:1px;
+		z-index:1;
+	}
+	#step-banner .dark:after {
+		border-color: transparent transparent transparent #d6d7da;
+	}
+	
+	
+	/* TODO Need to review */
+	#step-banner:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+}
+
+/******************************************************************************/
+/* =DESKTOP                                                                   */
+/******************************************************************************/
+@media all and (min-width:60em) { /*min-width:60em = 60*16=960px;*/ 
+	
+	.stepDesc{
+		padding-left: 5px;
+	}	
+}

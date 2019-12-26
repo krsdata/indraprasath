@@ -1,0 +1,252 @@
+
+
+#controls-wrapper {
+    margin: 0px auto;
+    height: 42px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    z-index: 4;
+    background: url("../img/nav-bg.png") repeat-x scroll 0% 0% transparent;
+    position: fixed;
+}
+
+#controls {
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+}
+
+#slidecounter {
+    float: left;
+    color: #999999;
+    font: 14px/42px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 0px -1px 0px #000000;
+    margin: 0px 10px 0px 15px;
+}
+
+#slidecaption {
+    overflow: hidden;
+    float: left;
+    color: #FFFFFF;
+    font: 400 14px/42px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 1px 1px 2px #000000;
+    margin: 0px 20px 0px 0px;
+}
+
+#navigation {
+    float: right;
+    margin: 0px 20px 0px 0px;
+}
+
+#play-button {
+    float: left;
+    margin-top: 1px;
+    border-right: 1px solid #333333;
+    background: url("../img/bg-hover.png") repeat-x scroll 0px 44px transparent;
+}
+
+#play-button:hover {
+    background-position: 0px 1px;
+    cursor: pointer;
+}
+
+#prevslide, #nextslide {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    top: 50%;
+    margin-top: -21px;
+    opacity: 0.6;
+}
+
+#prevslide {
+    left: 10px;
+    background: url("../img/back.png") repeat scroll 0% 0% transparent;
+}
+
+#nextslide {
+    right: 10px;
+    background: url("../img/forward.png") repeat scroll 0% 0% transparent;
+}
+
+#prevslide:active, #nextslide:active {
+    margin-top: -19px;
+}
+
+#prevslide:hover, #nextslide:hover {
+    cursor: pointer;
+}
+
+ul#slide-list {
+    padding: 15px 0px;
+    float: left;
+    position: absolute;
+    left: 50%;
+}
+
+ul#slide-list li {
+    list-style: none outside none;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+
+ul#slide-list li.current-slide a, ul#slide-list li.current-slide a:hover {
+    background-position: 0px 0px;
+}
+
+ul#slide-list li a {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url("../img/nav-dot.png") no-repeat scroll 0px -24px transparent;
+}
+
+ul#slide-list li a:hover {
+    background-position: 0px -12px;
+    cursor: pointer;
+}
+
+#tray-button {
+    float: right;
+    margin-top: 1px;
+    border-left: 1px solid #333333;
+    background: url("../img/bg-hover.png") repeat-x scroll 0px 44px transparent;
+}
+
+#tray-button:hover {
+    background-position: 0px 1px;
+    cursor: pointer;
+}
+
+#progress-back {
+    z-index: 5;
+    position: fixed;
+    bottom: 42px;
+    left: 0px;
+    height: 8px;
+    width: 100%;
+    background: url("../img/progress-back.png") repeat-x scroll 0% 0% transparent;
+}
+
+#progress-bar {
+    position: relative;
+    height: 8px;
+    width: 100%;
+    background: url("../img/progress-bar.png") repeat-x scroll 0% 0% transparent;
+}
+
+#nextthumb, #prevthumb {
+    position: fixed;
+    bottom: 61px;
+    height: 75px;
+    width: 100px;
+    overflow: hidden;
+    background: none repeat scroll 0% 0% #DDDDDD;
+    border: 1px solid #FFFFFF;
+    z-index: 2;
+    display: none;
+}
+
+#nextthumb {
+    right: 12px;
+}
+
+#prevthumb {
+    left: 12px;
+}
+
+#nextthumb img, #prevthumb img {
+    width: 150px;
+    height: auto;
+}
+
+#nextthumb:active, #prevthumb:active {
+    bottom: 59px;
+}
+
+#nextthumb:hover, #prevthumb:hover {
+    cursor: pointer;
+}
+
+#thumb-tray {
+    position: fixed;
+    z-index: 3;
+    bottom: 0px;
+    left: 0px;
+    background: url("../img/bg-black.png") repeat scroll 0% 0% transparent;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 0px 4px #000000;
+}
+
+#thumb-back, #thumb-forward {
+    position: absolute;
+    z-index: 5;
+    bottom: 42px;
+    height: 108px;
+    width: 40px;
+}
+
+#thumb-back {
+    left: 0px;
+    background: url("../img/thumb-back.png") no-repeat scroll center center transparent;
+}
+
+#thumb-forward {
+    right: 0px;
+    background: url("../img/thumb-forward.png") no-repeat scroll center center transparent;
+}
+
+#thumb-back:hover, #thumb-forward:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#thumb-back:hover {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#thumb-forward:hover {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+ul#thumb-list {
+    display: inline-block;
+    list-style: none outside none;
+    position: relative;
+    left: 0px;
+    padding: 0px;
+}
+
+ul#thumb-list li {
+    background: none repeat scroll 0% 0% #111111;
+    list-style: none outside none;
+    display: inline;
+    width: 150px;
+    height: 108px;
+    overflow: hidden;
+    float: left;
+    margin: 0px;
+}
+
+ul#thumb-list li img {
+    width: 200px;
+    height: auto;
+    opacity: 0.5;
+    transition: all 100ms ease-in-out 0s;
+}
+
+ul#thumb-list li.current-thumb img, ul#thumb-list li:hover img {
+    opacity: 1;
+}
+
+ul#thumb-list li:hover {
+    cursor: pointer;
+}

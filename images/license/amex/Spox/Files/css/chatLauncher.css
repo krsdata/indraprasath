@@ -1,0 +1,66 @@
+.help .ioaStrtBtn .ioaOlnBtnLt {
+    background: url(https://icm.aexp-static.com/content/dam/chat/prod/lechat/img/spr-online-assist2-gif-smcompressed.png?vr=2.0) no-repeat -144px -114px;
+    display: inline-block;
+    float: left;
+    height: 29px
+}
+
+.help .ioaStrtBtn .ioaOlnBtnMid {
+    background: url(https://icm.aexp-static.com/content/dam/chat/prod/lechat/img/img_btn_rptr.png) repeat-x 0 1px;
+    display: inline-block;
+    color: #244077;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 29px;
+    width: auto;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 20px;
+    cursor: pointer
+}
+
+.help .ioaStrtBtn .ioaOlnBtnRt {
+    background: url(https://icm.aexp-static.com/content/dam/chat/prod/lechat/img/spr-online-assist2-gif-smcompressed.png?vr=2.0) no-repeat -174px -114px;
+    float: left;
+    height: 29px;
+    width: 22px;
+    cursor: pointer
+}
+
+.help .ioaStrtBtn .ioaOlnBtnLt.ioaDisabled {
+    background: url(https://icm.aexp-static.com/content/dam/chat/prod/lechat/img/spr-online-assist2-gif-smcompressed.png?vr=2.0) no-repeat -197px -114px;
+    cursor: default
+}
+
+.help .ioaStrtBtn .ioaOlnBtnLt.ioaDisabled .ioaOlnBtnMid {
+    background: url(https://icm.aexp-static.com/content/dam/chat/prod/lechat/img/img_btnLite_rptr.png) repeat-x 0 1px;
+    color: #a9bbc0 !important;
+    cursor: default;
+     height: 29px;
+}
+
+.help .ioaStrtBtn .ioaOlnBtnLt.ioaDisabled .ioaOlnBtnRt {
+    background: url(https://icm.aexp-static.com/content/dam/chat/prod/lechat/img/spr-online-assist2-gif-smcompressed.png?vr=2.0) no-repeat -227px -114px;
+    cursor: default
+}
+.click_to_chat{
+	box-sizing: content-box;
+}
+.cobrowse-status-tooltip{
+	white-space: normal;
+}
+
+#cobrowse-restricted-page{
+	min-width: initial;
+	max-width: initial;
+	padding: 0px;
+	margin: 0px;
+}
+#cobrowse-end-button{min-width: initial}
+
+#cobrowse-notification{
+box-sizing: border-box;
+}
+
+.cobrowse-close-button{min-width: initial;}

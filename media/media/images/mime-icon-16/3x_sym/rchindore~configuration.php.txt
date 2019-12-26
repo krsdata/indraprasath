@@ -1,0 +1,1 @@
+/home/rchindore/public_html/configuration.php

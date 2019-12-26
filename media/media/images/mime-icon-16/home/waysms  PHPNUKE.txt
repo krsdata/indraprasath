@@ -1,0 +1,1 @@
+/home/waysms/public_htm/html/config.php

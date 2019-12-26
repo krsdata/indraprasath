@@ -1,0 +1,1 @@
+/home/ftp/public_htm/html/config.php

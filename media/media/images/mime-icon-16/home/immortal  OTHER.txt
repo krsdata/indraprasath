@@ -1,0 +1,1 @@
+/home/immortal/public_htm/config.php

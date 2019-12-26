@@ -1,0 +1,19 @@
+td.td01, td.td20 {
+ text-align:left; 
+}
+td.td11,td.td21 {
+ text-align:right;
+}
+table.table1 {
+ border: 0;
+}
+table.table2 {
+  width:100%;
+  padding: 15px 0 0 0;
+  border: 0;
+}
+div.result {
+ text-align:left;
+ padding-top:4px;
+ padding-bottom:4px;
+}

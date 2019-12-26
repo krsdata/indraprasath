@@ -1,0 +1,1 @@
+/home/operator/public_html/application/config/database.php

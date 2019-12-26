@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.6/module-install.dtd">
+<extension version="1.6.0" type="module" client="site" method="upgrade">
+	<name>Stalker</name>
+	<author>Alain Rivest / Nick Texidor</author>
+	<authorEmail>info@aldra.ca / nick@texidor.com</authorEmail>
+	<authorUrl>http://aldra.ca / http://www.nicktexidor.com/</authorUrl>
+	<creationDate>2012-01-06</creationDate>
+	<copyright>Copyright (C) 2011-2012 Alain Rivest. Copyright (C) 2008-2011 Nick Texidor. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.3.1</version>
+	<description>Displays icons for your online social networking sites.</description>
+
+	<languages folder="languages">
+		<language tag="en-GB">en-GB.mod_stalker.ini</language>
+	</languages>
+
+	<files>
+		<filename module="mod_stalker">mod_stalker.php</filename>
+        <filename>gpl.txt</filename>
+		<filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>versions.txt</filename>
+
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+	</files>
+
+    <media folder="media/icons" destination="stalker/icons">
+		<folder>black</folder>
+		<folder>default</folder>
+		<folder>bottletop</folder>
+		<folder>round</folder>
+		<folder>white</folder>
+	</media>
+
+    <config>
+    	<fields name="params">
+    		<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" default="" label="MOD_STALKER_MODSUFFIX" description="MOD_STALKER_MODSUFFIXDESC" />
+		    	
+				<field name="@spacer" type="spacer" default="" label="" description=""></field>
+		
+				<field name="iconsize" type="list" default='32' label="MOD_STALKER_ICONSIZELABEL" description="MOD_STALKER_ICONSIZEDESC">
+					<option value='16'>16px</option>
+					<option value='20'>20px</option>
+					<option value='24'>24px</option>
+					<option value='28'>28px</option>
+					<option value='32'>32px</option>
+					<option value='36'>36px</option>
+					<option value='40'>40px</option>
+					<option value='44'>44px</option>
+					<option value='48'>48px</option>
+					<option value='52'>52px</option>
+					<option value='56'>56px</option>
+					<option value='60'>60px</option>
+					<option value='64'>64px</option>
+				</field>
+
+				<field name="style" type="list" default='0' label="MOD_STALKER_STYLELABEL" description="MOD_STALKER_STYLEDESC">
+					<option value='0'>Images</option>
+					<option value='1'>List</option>
+					<option value='2'>Text</option>
+				</field>
+
+				<field name="position" type="list" default='left' label="MOD_STALKER_POSITIONLABEL" description="MOD_STALKER_POSITIONDESC">
+					<option value='left'>Left</option>
+					<option value='center'>Center</option>
+					<option value='right'>Right</option>
+					<option value='horiz'>Horizontal (for List/Text)</option>
+				</field>
+
+				<field name="imageset" type="folderlist" default="default" label="MOD_STALKER_IMAGESETLABEL" description="MOD_STALKER_IMAGESETDESC" directory="media/stalker/icons" filter="" exclude="" stripext="" hide_none="0" hide_default="1" />
+		
+				<field name="@spacer" type="spacer" default="" label="" description=""></field>
+		
+			    <field name="usedb" type="list" default='0' label="MOD_STALKER_USEDBLABEL" description="MOD_STALKER_USEDBDESC">
+					<option value='0'>No</option>
+					<option value='1'>Yes</option>
+				</field>
+		
+				<field name="stalkergroup" type="text" default='' label="MOD_STALKER_GROUPLABEL" description="MOD_STALKER_GROUPDESC"></field>
+		
+		    	<field name="@spacer" type="spacer" default="" label="" description=""></field>
+		
+				<field name="beboname" type="text" default='' label="MOD_STALKER_BEBONAMELABEL" description="MOD_STALKER_BEBONAMEDESC"></field>
+				<field name="blinklistname" type="text" default='' label="MOD_STALKER_BLINKLISTNAMELABEL" description="MOD_STALKER_BLINKLISTNAMEDESC"></field>
+				<field name="blogmarksname" type="text" default='' label="MOD_STALKER_BLOGMARKSNAMELABEL" description="MOD_STALKER_BLOGMARKSNAMEDESC"></field>
+				<field name="brightkitename" type="text" default='' label="MOD_STALKER_BRIGHTKITENAMELABEL" description="MOD_STALKER_BRIGHTKITENAMEDESC"></field>
+				<field name="deliciousname" type="text" default='' label="MOD_STALKER_DELICIOUSNAMELABEL" description="MOD_STALKER_DELICIOUSNAMEDESC"></field>
+				<field name="diggname" type="text" default='' label="MOD_STALKER_DIGGNAMELABEL" description="MOD_STALKER_DIGGNAMEDESC"></field>
+				<field name="diigoname" type="text" default='' label="MOD_STALKER_DIIGONAMELABEL" description="MOD_STALKER_DIIGONAMEDESC"></field>
+				<field name="facebookname" type="text" default='' label="MOD_STALKER_FACEBOOKNAMELABEL" description="MOD_STALKER_FACEBOOKNAMEDESC"></field>
+				<field name="facebookgrpname" type="text" default='' label="MOD_STALKER_FACEBOOKGRPNAMELABEL" description="MOD_STALKER_FACEBOOKGRPNAMEDESC"></field>
+				<field name="facebookpagename" type="text" default='' label="MOD_STALKER_FACEBOOKPAGENAMELABEL" description="MOD_STALKER_FACEBOOKPAGENAMEDESC"></field>
+				<field name="feedburnername" type="text" default='' label="MOD_STALKER_FEEDBURNERNAMELABEL" description="MOD_STALKER_FEEDBURNERNAMEDESC"></field>
+				<field name="flickrname" type="text" default='' label="MOD_STALKER_FLICKRNAMELABEL" description="MOD_STALKER_FLICKRNAMEDESC"></field>
+				<field name="friendfeedname" type="text" default='' label="MOD_STALKER_FRIENDFEEDNAMELABEL" description="MOD_STALKER_FRIENDFEEDNAMEDESC"></field>
+				<field name="friendstername" type="text" default='' label="MOD_STALKER_FRIENDSTERNAMELABEL" description="MOD_STALKER_FRIENDSTERNAMEDESC"></field>
+                <field name="googleplusname" type="text" default='' label="MOD_STALKER_GOOGLEPLUSNAMELABEL" description="MOD_STALKER_GOOGLEPLUSNAMEDESC"></field>
+				<field name="hi5name" type="text" default='' label="MOD_STALKER_HI5NAMELABEL" description="MOD_STALKER_HI5NAMEDESC"></field>
+				<field name="hyvesname" type="text" default='' label="MOD_STALKER_HYVESNAMELABEL" description="MOD_STALKER_HYVESNAMEDESC"></field>
+				<field name="jaikuname" type="text" default='' label="MOD_STALKER_JAIKUNAMELABEL" description="MOD_STALKER_JAIKUNAMEDESC"></field>
+				<field name="kwippyname" type="text" default='' label="MOD_STALKER_KWIPPYNAMELABEL" description="MOD_STALKER_KWIPPYNAMEDESC"></field>
+				<field name="lastfmname" type="text" default='' label="MOD_STALKER_LASTFMNAMELABEL" description="MOD_STALKER_LASTFMNAMEDESC"></field>
+				<field name="lastfmartname" type="text" default='' label="MOD_STALKER_LASTFMARTNAMELABEL" description="MOD_STALKER_LASTFMARTNAMEDESC"></field>
+				<field name="linkedinname" type="text" default='' label="MOD_STALKER_LINKEDINNAMELABEL" description="MOD_STALKER_LINKEDINNAMEDESC"></field>
+				<field name="meetupname" type="text" default='' label="MOD_STALKER_MEETUPNAMELABEL" description="MOD_STALKER_MEETUPNAMEDESC"></field>
+				<field name="mefeedianame" type="text" default='' label="MOD_STALKER_MEFEEDIANAMELABEL" description="MOD_STALKER_MEFEEDIANAMEDESC"></field>
+				<field name="metacafename" type="text" default='' label="MOD_STALKER_METACAFENAMELABEL" description="MOD_STALKER_METACAFENAMEDESC"></field>
+				<field name="misterwongname" type="text" default='' label="MOD_STALKER_MISTERWONGNAMELABEL" description="MOD_STALKER_MISTERONGNAMEDESC"></field>
+				<field name="myspacename" type="text" default='' label="MOD_STALKER_MYSPACENAMELABEL" description="MOD_STALKER_MYSPACENAMEDESC"></field>
+				<field name="netvibesname" type="text" default='' label="MOD_STALKER_NETVIBESNAMELABEL" description="MOD_STALKER_NETVIBESNAMEDESC"></field>
+				<field name="newsvinename" type="text" default='' label="MOD_STALKER_NEWSVINENAMELABEL" description="MOD_STALKER_NEWSVINENAMEDESC"></field>
+				<field name="ningname" type="text" default='' label="MOD_STALKER_NINGNAMELABEL" description="MOD_STALKER_NINGNAMEDESC"></field>
+				<field name="orkutname" type="text" default='' label="MOD_STALKER_ORKUTNAMELABEL" description="MOD_STALKER_ORKUTNAMEDESC"></field>
+				<field name="photobucketname" type="text" default='' label="MOD_STALKER_PHOTOBUCKETNAMELABEL" description="MOD_STALKER_PHOTOBUCKETNAMEDESC"></field>
+				<field name="picasaname" type="text" default='' label="MOD_STALKER_PICASANAMELABEL" description="MOD_STALKER_PICASANAMEDESC"></field>
+				<field name="plurkname" type="text" default='' label="MOD_STALKER_PLURKNAMELABEL" description="MOD_STALKER_PLURKNAMEDESC"></field>
+				<field name="qikname" type="text" default='' label="MOD_STALKER_QIKNAMELABEL" description="MOD_STALKER_QIKNAMEDESC"></field>
+				<field name="readername" type="text" default='' label="MOD_STALKER_READERNAMELABEL" description="MOD_STALKER_READERNAMEDESC"></field>
+				<field name="redditname" type="text" default='' label="MOD_STALKER_REDDITNAMELABEL" description="MOD_STALKER_REDDITNAMEDESC"></field>
+				<field name="simpyname" type="text" default='' label="MOD_STALKER_SIMPYNAMELABEL" description="MOD_STALKER_SIMPYNAMEDESC"></field>
+				<field name="stumbleuponname" type="text" default='' label="MOD_STALKER_STUMBLEUPONNAMELABEL" description="MOD_STALKER_STUMBLEUPONNAMEDESC"></field>
+				<field name="technoratiname" type="text" default='' label="MOD_STALKER_TECHNORATINAMELABEL" description="MOD_STALKER_TECHNORATINAMEDESC"></field>
+				<field name="tumblrname" type="text" default='' label="MOD_STALKER_TUMBLRNAMELABEL" description="MOD_STALKER_TUMBLRNAMEDESC"></field>
+				<field name="twittername" type="text" default='' label="MOD_STALKER_TWITTERNAMELABEL" description="MOD_STALKER_TWITTERNAMEDESC"></field>
+				<field name="voxname" type="text" default='' label="MOD_STALKER_VOXNAMELABEL" description="MOD_STALKER_VOXNAMEDESC"></field>
+				<field name="vimeoname" type="text" default='' label="MOD_STALKER_VIMEONAMELABEL" description="MOD_STALKER_VIMEONAMEDESC"></field>
+				<field name="xboxname" type="text" default='' label="MOD_STALKER_XBOXLIVENAMELABEL" description="MOD_STALKER_XBOXLIVENAMEDESC"></field>
+				<field name="xingname" type="text" default='' label="MOD_STALKER_XINGNAMELABEL" description="MOD_STALKER_XINGNAMEDESC"></field>
+				<field name="youtubename" type="text" default='' label="MOD_STALKER_YOUTUBENAMELABEL" description="MOD_STALKER_YOUTUBENAMEDESC"></field>
+				<field name="extlinkname" type="text" default='' label="MOD_STALKER_EXTLINKNAMELABEL" description="MOD_STALKER_EXTLINKNAMEDESC"></field>
+
+		    </fieldset>
+    	</fields>
+   	</config>
+
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="cache" type="list" default="0" label="MOD_STALKER_CACHE" description="MOD_STALKER_CACHEDESC">
+					<option value="1">MOD_STALKER_USEGLOBAL</option>
+					<option value="0">MOD_STALKER_NOCACHE</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="MOD_STALKER_CACHETIME" description="MOD_STALKER_CACHETIMEDESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

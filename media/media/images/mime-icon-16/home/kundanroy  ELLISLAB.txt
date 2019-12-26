@@ -1,0 +1,1 @@
+/home/kundanroy/public_html/application/config/database.php

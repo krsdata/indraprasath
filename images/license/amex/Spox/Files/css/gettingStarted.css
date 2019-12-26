@@ -1,0 +1,147 @@
+/* Global */
+.legalText {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 14px;
+  line-height: 1.4rem;
+  /*margin-top: 30px;
+  margin-top: 3rem;*/
+  margin-top:0;
+  padding-left:0;
+}
+.legalText p {
+	margin:5px 0;
+	margin:.5rem 0;
+}
+
+div.titleLine {
+	margin: 2.5px 0;
+	margin: .25rem 0;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+div.titleLine:first-letter {
+	text-transform: uppercase;
+}
+
+/* Stipulations Page */
+.req18, .reqUS, .reqPersonal {
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin: 10px 0;
+	min-height: 30px;
+	padding: 8px 0 8px 55px;
+	padding: .8rem 0 .8rem 5.5rem;
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	background-size: 30px 30px;
+}
+
+.req18 {
+	background-image: url('../img/18_Amex_Icons_Batch3_18Over.svg') ;
+	background-position-y: center;
+}
+
+.reqUS {
+	background-image: url('../img/18_Amex_Icons_Batch3_USFlag.svg');
+}
+
+.reqPersonal {
+	background-image: url('../img/18_Amex_Icons_Batch3_Household.svg');
+}
+
+/* New or Existing Customer Page */
+button > span {
+	display: block;
+	text-align: center;
+}
+
+#ttimgWhatInformationContainer ul{
+	padding-left:15px;
+}
+#ttipHelpText{
+	padding:5px 30px 20px 30px;
+	font-size:14px;
+	font-size:1.4rem;
+	line-height:1.2;
+}
+#whatInformation{
+	padding-top:25px;
+}
+
+div.saveAndFinishLater {
+	float: right;
+	width: auto !important;
+	font-size: 14px;
+	
+}
+
+/******************************************************************************/
+/* =TABLET                                                                    */
+/******************************************************************************/
+@media all and (min-width:41.3125em) { /*661px=16*41.3125em;*/
+
+	/* Global */
+	div.titleLine {
+		text-align: left;
+	}
+
+	.button-wrapper {
+		border: 0;
+		overflow: auto;
+		padding: 0;
+	}
+
+	.button-wrapper > input, .button-wrapper > button {
+		margin: 0;
+		width: 49%;
+	}
+
+	.button-wrapper > input:first-child, .button-wrapper > button:first-child {
+		float: left;
+	}
+
+	.button-wrapper > input:last-child, .button-wrapper > button:last-child {
+		float: right;
+	}
+
+	/* Stipulations Page
+	div.requirements {
+		overflow: auto;
+	}
+	div.requirements > p {
+		width: 40%;
+	}
+	p.req18 {
+		float: left;
+	}
+	p.reqUS {
+		float: right;
+		margin-right: 10%;
+	}
+	p.reqPersonal {
+		float: left;
+		clear: left;
+	}
+	p.reqUS, p.reqPersonal {
+		background-position: left top;
+		padding-top: 0;
+	}
+	*/
+	.legalText {
+		padding-left:10px;
+		padding-left:1rem;
+	}
+	#whatInformation{
+		padding-top:0px;
+	}
+	#ttimgWhatInformationContainer ul{
+		margin:0 auto;
+		width:75%;
+	}
+	/*
+	#divCancelLink,div.saveAndFinishLater {
+    margin-right: 1.5%;
+}*/
+}

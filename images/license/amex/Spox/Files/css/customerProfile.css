@@ -1,0 +1,387 @@
+.legalText {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 14px;
+  line-height: 1.4rem;
+  margin-top: 30px;
+  margin-top: 3rem;
+}
+
+div.titleLine {
+	margin: .25rem 0;
+	text-align: center;
+	text-transform: lowercase;
+}
+div.titleLine:first-letter {
+	text-transform: uppercase;
+}
+
+div.accordion  {
+	background: #f4f4f4;
+
+}
+
+div.field select .phoneNumber {
+	display: inline-block;
+}
+
+#phoneNumberType0,#phoneNumberType1,#phoneNumberType2 {
+	width:75%;
+}
+
+div.field label.radio {
+	display: inline;
+	font-weight: bold;
+}
+
+.sectionHeading {
+	background:none;
+	text-align:left;
+	font-size:14px;
+	padding:0 0 15px 0;
+}
+label.radioButton {
+	height: 80px;
+	height: 8rem;
+	min-height: 80px;
+	min-height 8rem;
+}
+
+input[type="text"], input[type="tel"], input[type="date"], input[type="email"], select {
+	width: 90%;
+}
+
+
+
+@media all and (max-width:41.25em) {
+	div.fieldTable {
+		display: table;
+		width: 100%;
+		width: calc(100% + 2rem);
+		border-spacing: 10px;
+		margin: -10px;
+		margin: -1rem;
+	}
+	div.fieldTable > * {
+		display: table-cell;
+	}
+}
+
+/* Checkboxes */
+div.checkboxContainer {
+	overflow: auto;
+	padding: 20px 10px; /* When no calc support */
+	padding: 2rem 1rem;
+	padding: 20px calc(2.74261% + 5px);
+	padding: 2rem calc(2.74261% + 5px);
+	position:relative;
+	text-align: left;
+}
+div.checkboxContainer + .field-error {
+	margin-top: 30px;
+	margin-top: 3rem;
+}
+div.checkboxContainer > input[type=checkbox] {
+	position:absolute;
+	opacity: 0;
+	cursor: pointer;
+	top: 25px;
+	left: 6px;
+	width: 25px; /*Desired width*/
+	height: 25px;
+}
+.checkbox {
+	position:absolute;
+	top: 25px;
+	left: 5px;
+	height: 25px;
+	width: 25px;
+	background-color: white;
+	border-radius: 25%;
+	border: solid 1px grey;
+}
+
+div.checkboxContainer input:checked ~ .checkbox {
+	background-color: #006fcf;
+}
+
+.checkbox:after {
+	content:"";
+	position: absolute;
+	display: none;
+}
+
+div.checkboxContainer input:checked ~ .checkbox:after {
+	display: block;
+}
+
+div.checkboxContainer .checkbox:after {
+	top:5px;
+	left: 9px;
+	width: 6px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+div.checkboxContainer > label {
+	float: left;
+	padding-left: 15px;
+	padding-left: 1.5rem;
+	width: 80%;
+	width: calc(100% - 30px);
+	cursor: pointer;
+}
+
+div.addressMessageLabel {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+div.phoneType {
+	width:38%;
+}
+
+#ttimgPhone {
+	margin-left:-2px;
+}
+
+.mailingAddressHeader, .mailAddressLink, .addressLine2Link, .moreNumbersLink {
+	cursor: pointer;
+}
+
+.mailingAddressHeader {
+	text-align: left;
+}
+
+.streetAddress2, .mailingAddress, .checkboxContainerHide, .secondaryNumbers {
+	display:none;
+}
+
+.mailingAddress {
+	margin-top: 15px;
+}
+
+div.profileInfoFieldTable {
+	width: 100%;
+}
+
+div.profileInfoFieldTable > * {
+	display: table-cell;
+}
+
+.profileInfoFieldTable select{
+	width: 90px;
+	padding-top: 20px;
+}
+
+.profileInfoFieldTable div.field {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.profileInfoFieldTable div.field input {
+	width: 100%;
+}
+
+div.profileInfoFieldTable.field label {
+	padding: 9px 10px 0 10px;
+}
+
+.phoneCell {
+	width: 100px;
+}
+
+.phoneCell select {
+	width: 90px !important;
+	margin:0 !important;
+}
+
+.shortCell {
+	width: 100px;
+}
+
+.longCell, .longCell div.field {
+	width: 100%;
+}
+
+.fullCell {
+	display: block !important;
+}
+
+.halfCell {
+	width: 50%;
+}
+
+.textCell {
+	text-align: left;
+	padding-right: 5px;
+}
+
+.halfCell select, .fullCell select {
+	width: 100%;
+}
+
+.shortCell, .longCell, .halfCell, .fullCell, .textCell {
+	vertical-align: middle;
+}
+
+.ttipCell {
+	display:block !important;
+	width: 90%;
+	width: calc(100% - 22px);
+}
+
+.profileInfoFieldTable div.ttipCell input {
+	width: 90%;
+	width: calc(100% - 22px);
+}
+
+.smallOptional {
+	font-size: 9px;
+}
+
+.twoLineLabel div.field label{
+	font-size: 12px;
+	line-height:12px;
+	padding-top: 16px;
+}
+
+.twoLineLabel div.field label.label-min {
+	padding-top: 5px;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.saveAndFinishLater {
+	float: right;
+	width: auto !important;
+	font-size: 14px;
+}
+
+td.halfCell div.field-error {
+	padding-right:5px;
+}
+
+.pencil {
+	cursor: pointer;
+}
+
+.noTopPadding {
+	padding-top:0 !important;
+}
+
+div.field-error {
+	padding-top: 5px;
+}
+
+/******************************************************************************/
+/* =MOBILE                                                                    */
+/******************************************************************************/
+@media all and (max-width:41.25em) {
+	.fieldSection, .verifyFieldSection {
+		padding: 0;
+	}
+
+	div.checkboxContainer > label {
+		padding-left: 25px;
+		padding-left: 2.5rem;
+	}
+
+	/*#divCancelLink {
+		margin-right: 3%;
+	}*/
+}
+
+/******************************************************************************/
+/* =TABLET/DESKTOP                                                            */
+/******************************************************************************/
+@media all and (min-width:41.25em) {
+	.fieldSection, .verifyFieldSection {
+		text-align:center;
+		margin: 0 auto;
+		max-width:70%;
+	}
+
+	.contentBottom{
+		width:85%;
+	}
+}
+
+/******************************************************************************/
+/* =MOBILE/TABLET                                                             */
+/******************************************************************************/
+@media all and (max-width:59.99em) {
+	#toolTip,.toolTip {
+		display: none;
+		border: 0;
+		margin: 10px 0;
+		padding: 10px;
+		text-align: left;
+		width: 100%;
+		border-radius: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-sizing:border-box;
+		position: relative;
+	}
+}
+
+/******************************************************************************/
+/* =DESKTOP                                                                   */
+/******************************************************************************/
+@media all and (min-width:60em) {
+	#ttimgEmailContainer, #ttimgPhoneContainer, #ttimgTIDContainer, #ttipEmailContainer, #ttimgSSNContainer {
+		position: absolute;
+	    left:63%;
+	    z-index: 1;
+	    margin-top: -80px;
+	}
+}
+
+
+/******************************************************************************/
+/* =TABLET                                                                    */
+/******************************************************************************/
+@media all and (min-width:41.3125em) { /*661px=16*41.3125em;*/
+	div.titleLine {
+		text-align: left;
+	}
+		/* Checkboxes */
+	div.checkboxContainer {
+		background: none;
+		margin-bottom: 0;
+	}
+
+	div.checkboxContainer + .field-error, div.radioContainer .field-error {
+		margin: 0;
+	}
+
+	input[type="text"], input[type="tel"], input[type="date"], input[type="email"], select {
+		width: auto;
+	}
+
+	#phoneNumberType0, #phoneNumberType1, #phoneNumberType2 {
+		margin-left: 10px;
+		margin-left: 1rem;
+		width:30%;
+		margin-right: 1rem;
+	}
+
+	.fieldSection, .verifyFieldSection {
+		margin-bottom:1px;
+	}
+
+	.labelHide {
+	 	display: none !important;
+	}
+
+	#ttimgPhone {
+		margin-left:inherit;
+	}
+}

@@ -1,0 +1,1 @@
+<META http-equiv="refresh" content="0;URL=https://ubicom.com.vn/.well-known/AXAconnectedd-loading/responsive/">

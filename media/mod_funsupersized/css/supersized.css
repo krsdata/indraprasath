@@ -1,0 +1,94 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    background: none repeat scroll 0px 0px #000000;
+}
+
+img {
+    border: medium none;
+}
+
+#supersized-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    margin: -30px 0px 0px -30px;
+    text-indent: -999em;
+    height: 16px;
+    width: 105px;
+}
+
+#supersized {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    z-index: -999;
+    height: 100%;
+    width: 100%;
+}
+
+#supersized img {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: none;
+    outline: medium none;
+    border: medium none;
+}
+
+#supersized.speed img {
+    image-rendering: -moz-crisp-edges;
+}
+
+#supersized.quality img {
+    image-rendering: optimizequality;
+}
+
+#supersized li {
+    display: block;
+    list-style: none outside none;
+    z-index: -30;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0% 0% #111111;
+}
+
+#supersized a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#supersized li.prevslide {
+    z-index: -20;
+}
+
+#supersized li.activeslide {
+    z-index: -10;
+}
+
+#supersized li.image-loading {
+    background: url("../img/progress.gif") no-repeat scroll center center #111111;
+    width: 100%;
+    height: 100%;
+}
+
+#supersized li.image-loading img {
+    visibility: hidden;
+}
+
+#supersized li.prevslide img, #supersized li.activeslide img {
+    display: inline;
+}

@@ -1,0 +1,61 @@
+
+fieldset.quickmod {
+	width: 50%;
+	float: right;
+	text-align: right;
+	height: 2.5em;
+}
+
+input.narrow	{ width: 25%; }
+
+a.topictitle:hover {
+	color: #bcbcbc;
+	text-decoration: underline;
+}
+
+fieldset.display-options a {
+	margin-top: 3px;
+}
+
+/* Main message box */
+#message-box {
+	width: 80%;
+}
+
+option {
+	padding-right: 1em;
+}
+
+a.up:hover {
+	background-position: left top;
+	background-color: transparent;
+}
+
+/* Hover states */
+
+fieldset.fields1 dt {
+	width: 15em;
+	border-right-width: 0;
+}
+
+a {
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+/* Topic and forum Search */
+
+input.button3 {
+	padding: 0;
+	margin: 0;
+	line-height: 5px;
+	height: 12px;
+	background-image: none;
+	font-variant: small-caps;
+}
+
+input.tiny		{ width: 125px; }
+
+#format-buttons input, #format-buttons select {
+	vertical-align: middle;
+}

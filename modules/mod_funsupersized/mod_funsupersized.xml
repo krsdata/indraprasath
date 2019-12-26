@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Fun Supersized</name>
+    <creationDate>Oct 2011</creationDate>
+    <author>All For Coding</author>
+    <authorEmail>nguyenluvinh@gmail.com</authorEmail>
+    <authorUrl>http://www.all4coding.com</authorUrl>
+    <copyright>Copyright (C) All For Coding. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.1.7</version>
+    <description>MOD_FUNSUPERSIZED_XML_DESC</description>
+    <files>
+        <folder>tmpl</folder>
+        <filename>index.html</filename>
+        <filename module="mod_funsupersized">mod_funsupersized.php</filename>
+        <filename>mod_funsupersized.xml</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_funsupersized.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_funsupersized.sys.ini</language>
+        <language tag="nl-NL">nl-NL/nl-NL.mod_funsupersized.ini</language>
+        <language tag="nl-NL">nl-NL/nl-NL.mod_funsupersized.sys.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_funsupersized.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_funsupersized.sys.ini</language>
+        <language tag="de-DE">de-DE/de-DE.mod_funsupersized.ini</language>
+        <language tag="de-DE">de-DE/de-DE.mod_funsupersized.sys.ini</language>
+        <language tag="hu-HU">hu-HU/hu-HU.mod_funsupersized.ini</language>
+        <language tag="hu-HU">hu-HU/hu-HU.mod_funsupersized.sys.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.mod_funsupersized.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.mod_funsupersized.sys.ini</language>
+        <language tag="pt-PT">pt-PT/pt-PT.mod_funsupersized.ini</language>
+        <language tag="pt-PT">pt-PT/pt-PT.mod_funsupersized.sys.ini</language>
+    </languages>
+    <media destination="mod_funsupersized" folder="media">
+        <folder>css</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+        <filename>index.html</filename>
+    </media>
+    <params>
+        <param name="slide_path" type="text" size="60"
+            label="MOD_FUNSUPERSIZED_FIELD_SLIDE_PATH_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_SLIDE_PATH_DESC"
+        />
+        <param name="load_jquery" type="radio" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_LOAD_JQUERY_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_LOAD_JQUERY_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="autoplay" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_AUTOPLAY_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_AUTOPLAY_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="fit_always" type="radio" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_FIT_ALWAYS_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_FIT_ALWAYS_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="fit_landscape" type="radio" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_FIT_LANDSCAPE_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_FIT_LANDSCAPE_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="fit_portrait" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_FIT_PORTRAIT_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_FIT_PORTRAIT_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="horizontal_center" type="radio" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_HORIZONTAL_CENTER_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_HORIZONTAL_CENTER_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="vertical_center" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_VERTICAL_CENTER_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_VERTICAL_CENTER_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="image_protect" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_IMAGE_PROTECT_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_IMAGE_PROTECT_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="keyboard_nav" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_KEYBOARD_NAV_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_KEYBOARD_NAV_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="min_height" type="text" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_MIN_HEIGHT_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_MIN_HEIGHT_DESC"
+        />
+        <param name="min_width" type="text" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_MIN_WIDTH_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_MIN_WIDTH_DESC"
+        />
+        <param name="new_window" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_NEW_WINDOW_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_NEW_WINDOW_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="pause_hover" type="radio" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_PAUSE_HOVER_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_PAUSE_HOVER_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="performance" type="list" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_PERFORMANCE_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_PERFORMANCE_DESC"
+        >
+            <option value="0">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_0</option>
+            <option value="1">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_1</option>
+            <option value="2">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_2</option>
+            <option value="3">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_3</option>
+        </param>
+        <param name="random" type="radio" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_RANDOM_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_RANDOM_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slideshow" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_SLIDESHOW_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_SLIDESHOW_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slide_interval" type="text" default="5000"
+            label="MOD_FUNSUPERSIZED_FIELD_SLIDE_INTERVAL_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_SLIDE_INTERVAL_DESC"
+        />
+        <param name="slide_links" type="list" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_SLIDE_LINKS_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_SLIDE_LINKS_DESC"
+        >
+            <option value="0">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_0</option>
+            <option value="num">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_NUM</option>
+            <option value="name">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_NAME</option>
+            <option value="blank">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_BLANK</option>
+        </param>
+        <param name="start_slide" type="text" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_START_SLIDE_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_START_SLIDE_DESC"
+        />
+        <param name="stop_loop" type="radio" default="0"
+            label="MOD_FUNSUPERSIZED_FIELD_STOP_LOOP_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_STOP_LOOP_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="thumb_links" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_THUMB_LINKS_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_THUMB_LINKS_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="thumbnail_navigation" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_THUMBNAIL_NAVIGATION_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_THUMBNAIL_NAVIGATION_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="transition" type="list" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_TRANSITION_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_TRANSITION_DESC"
+        >
+            <option value="0">MOD_FUNSUPERSIZED_TRANSITION_OPTION_0</option>
+            <option value="1">MOD_FUNSUPERSIZED_TRANSITION_OPTION_1</option>
+            <option value="2">MOD_FUNSUPERSIZED_TRANSITION_OPTION_2</option>
+            <option value="3">MOD_FUNSUPERSIZED_TRANSITION_OPTION_3</option>
+            <option value="4">MOD_FUNSUPERSIZED_TRANSITION_OPTION_4</option>
+            <option value="5">MOD_FUNSUPERSIZED_TRANSITION_OPTION_5</option>
+            <option value="6">MOD_FUNSUPERSIZED_TRANSITION_OPTION_6</option>
+            <option value="7">MOD_FUNSUPERSIZED_TRANSITION_OPTION_7</option>
+        </param>
+        <param name="transition_speed" type="text" default="750"
+            label="MOD_FUNSUPERSIZED_FIELD_TRANSITION_SPEED_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_TRANSITION_SPEED_DESC"
+        />
+        <param name="arrow_navigation" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_ARROW_NAVIGATION_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_ARROW_NAVIGATION_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="progress_bar" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_PROGRESS_BAR_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_PROGRESS_BAR_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="mouse_scrub" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_MOUSE_SCRUB_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_MOUSE_SCRUB_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="play_button" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_PLAY_BUTTON_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_PLAY_BUTTON_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slide_counter" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_SLIDE_COUNTER_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_SLIDE_COUNTER_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slide_caption" type="radio" default="1"
+            label="MOD_FUNSUPERSIZED_FIELD_SLIDE_CAPTION_LABEL"
+            description="MOD_FUNSUPERSIZED_FIELD_SLIDE_CAPTION_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+    </params>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="slide_path" type="text" size="60"
+                    label="MOD_FUNSUPERSIZED_FIELD_SLIDE_PATH_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_SLIDE_PATH_DESC"
+                />
+                <field name="load_jquery" type="radio" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_LOAD_JQUERY_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_LOAD_JQUERY_DESC"
+                >
+                    <option value="1">JYES</option>    
+                    <option value="0">JNO</option>
+                </field>
+                <field name="autoplay" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_AUTOPLAY_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_AUTOPLAY_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="fit_always" type="radio" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_FIT_ALWAYS_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_FIT_ALWAYS_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="fit_landscape" type="radio" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_FIT_LANDSCAPE_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_FIT_LANDSCAPE_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="fit_portrait" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_FIT_PORTRAIT_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_FIT_PORTRAIT_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="horizontal_center" type="radio" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_HORIZONTAL_CENTER_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_HORIZONTAL_CENTER_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="vertical_center" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_VERTICAL_CENTER_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_VERTICAL_CENTER_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="image_protect" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_IMAGE_PROTECT_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_IMAGE_PROTECT_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="keyboard_nav" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_KEYBOARD_NAV_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_KEYBOARD_NAV_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="min_height" type="text" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_MIN_HEIGHT_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_MIN_HEIGHT_DESC"
+                />
+                <field name="min_width" type="text" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_MIN_WIDTH_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_MIN_WIDTH_DESC"
+                />
+                <field name="new_window" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_NEW_WINDOW_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_NEW_WINDOW_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="pause_hover" type="radio" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_PAUSE_HOVER_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_PAUSE_HOVER_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="performance" type="list" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_PERFORMANCE_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_PERFORMANCE_DESC"
+                >
+                    <option value="0">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_0</option>
+                    <option value="1">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_1</option>
+                    <option value="2">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_2</option>
+                    <option value="3">MOD_FUNSUPERSIZED_PERFORMANCE_OPTION_3</option>
+                </field>
+                <field name="random" type="radio" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_RANDOM_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_RANDOM_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slideshow" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_SLIDESHOW_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_SLIDESHOW_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slide_interval" type="text" default="5000"
+                    label="MOD_FUNSUPERSIZED_FIELD_SLIDE_INTERVAL_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_SLIDE_INTERVAL_DESC"
+                />
+                <field name="slide_links" type="list" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_SLIDE_LINKS_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_SLIDE_LINKS_DESC"
+                >
+                    <option value="0">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_0</option>
+                    <option value="num">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_NUM</option>
+                    <option value="name">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_NAME</option>
+                    <option value="blank">MOD_FUNSUPERSIZED_SLIDE_LINKS_OPTION_BLANK</option>
+                </field>
+                <field name="start_slide" type="text" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_START_SLIDE_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_START_SLIDE_DESC"
+                />
+                <field name="stop_loop" type="radio" default="0"
+                    label="MOD_FUNSUPERSIZED_FIELD_STOP_LOOP_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_STOP_LOOP_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="thumb_links" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_THUMB_LINKS_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_THUMB_LINKS_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="thumbnail_navigation" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_THUMBNAIL_NAVIGATION_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_THUMBNAIL_NAVIGATION_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="transition" type="list" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_TRANSITION_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_TRANSITION_DESC"
+                >
+                    <option value="0">MOD_FUNSUPERSIZED_TRANSITION_OPTION_0</option>
+                    <option value="1">MOD_FUNSUPERSIZED_TRANSITION_OPTION_1</option>
+                    <option value="2">MOD_FUNSUPERSIZED_TRANSITION_OPTION_2</option>
+                    <option value="3">MOD_FUNSUPERSIZED_TRANSITION_OPTION_3</option>
+                    <option value="4">MOD_FUNSUPERSIZED_TRANSITION_OPTION_4</option>
+                    <option value="5">MOD_FUNSUPERSIZED_TRANSITION_OPTION_5</option>
+                    <option value="6">MOD_FUNSUPERSIZED_TRANSITION_OPTION_6</option>
+                    <option value="7">MOD_FUNSUPERSIZED_TRANSITION_OPTION_7</option>
+                </field>
+                <field name="transition_speed" type="text" default="750"
+                    label="MOD_FUNSUPERSIZED_FIELD_TRANSITION_SPEED_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_TRANSITION_SPEED_DESC"
+                />
+                <field name="arrow_navigation" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_ARROW_NAVIGATION_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_ARROW_NAVIGATION_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="progress_bar" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_PROGRESS_BAR_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_PROGRESS_BAR_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="mouse_scrub" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_MOUSE_SCRUB_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_MOUSE_SCRUB_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="play_button" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_PLAY_BUTTON_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_PLAY_BUTTON_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slide_counter" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_SLIDE_COUNTER_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_SLIDE_COUNTER_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slide_caption" type="radio" default="1"
+                    label="MOD_FUNSUPERSIZED_FIELD_SLIDE_CAPTION_LABEL"
+                    description="MOD_FUNSUPERSIZED_FIELD_SLIDE_CAPTION_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</install>
